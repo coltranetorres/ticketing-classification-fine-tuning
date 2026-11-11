@@ -38,11 +38,12 @@ Does a small model fine-tuned on a number of examples beat a larger model with n
 Details: [`results/report_ood.md`](results/report_ood.md) (all test sets, intervals, paired tests); [`results/report.md`](results/report.md) (original Bitext-only experiment).
 
 ## Conclusion
-- **Yes, in-distribution:** tuning a 1B model on 1,000 examples beat untuned Gemini on Bitext.
-- **No, out-of-distribution:** with Bitext-only tuning it loses to Gemini on new wording and collapses on real tweets. The 99% mostly reflects learning Bitext's wording.
-- **Fine-tuning helps when the training data resembles the deployment data:** the same Gemma-1B goes from 50.5% to 88.1% on real tweets with diverse data (34% to 90% on holdout v2). Narrow data can hurt (Bitext-only: 33.9% on tweets).
-- **Diverse training data is the fix, but a larger model is still ahead:** the small model trails Gemini by about 8 points on the 109 clear tweets (88% vs 96%) and about 12 on all 283 (69% vs 81%).
-- **Limits:** one training run per setting; labels for real tweets are LLM-made with a 50-row spot-check; the real set is small (109), complaint-heavy and covers 23 of 27 intents; Gemini ran with reasoning on; augmentation data comes from Gemini.
+- **Answer: no, not yet.** On realistic test data the tuned 1B model did not beat the larger untuned model. The best version trails Gemini by about 8 points on the 109 clear real tweets (88% vs 96%) and about 12 on all 283 (69% vs 81%).
+- **Fine-tuning clearly helped.** It narrowed the gap to Gemini on real tweets from 62 points (Bitext-only tuning) to 8, and the same Gemma-1B went from 50.5% untuned to 88.1% (34% to 90% on holdout v2).
+- **Condition: it only helps when the training data covers the wording it will see.** Bitext-only tuning beat Gemini on Bitext (99% vs 94%, an easy templated test) but collapsed on real tweets (33.9%, below untuned).
+- **Variety drove the gain, not quantity:** 3x more Bitext data moved holdout v2 by under 1 point; varied data moved it +23.
+- **Further engineering is open.** Untried: a larger base model, real-ticket training data, a confidence router that escalates uncertain tickets, multiple seeds.
+- **Limits:** one training run per setting; only 1,000 and 3,160 examples tried (no sweep over the number of examples); real-tweet labels are LLM-made with a 50-row spot-check; the real set is small (109), complaint-heavy and covers 23 of 27 intents; Gemini ran with reasoning on; augmentation data comes from Gemini.
 - **Not shown:** cost savings or CPU hosting.
 
 ## Reproduce
