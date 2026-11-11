@@ -1,0 +1,26 @@
+{
+  "0000250_adapters.safetensors": {
+    "val200": 0.8,
+    "dev_v1": 0.9407407407407408
+  },
+  "0000500_adapters.safetensors": {
+    "val200": 0.905,
+    "dev_v1": 0.9666666666666667
+  },
+  "0000750_adapters.safetensors": {
+    "val200": 0.93,
+    "dev_v1": 0.9555555555555556
+  },
+  "0001000_adapters.safetensors": {
+    "val200": 0.965,
+    "dev_v1": 0.9629629629629629
+  },
+  "0001250_adapters.safetensors": {
+    "val200": 0.99,
+    "dev_v1": 0.9518518518518518
+  },
+  "0001500_adapters.safetensors": {
+    "val200": 0.965,
+    "dev_v1": 0.9629629629629629
+  }
+}

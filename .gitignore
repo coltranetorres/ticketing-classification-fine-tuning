@@ -7,3 +7,9 @@ adapters/
 data/mlx/
 results/cache_*.jsonl
 data/*.csv
+data/external/
+data/aug/
+data/mlx_aug/
+data/mlx_bitext3k/
+data/twitter/
+results/*twitter*.json

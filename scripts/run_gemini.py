@@ -9,7 +9,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from h5.data import LABELS, load_holdout, load_split
+from h5.data import LABELS, load_holdout, load_split, load_twitter
 from h5.gemini import classify
 from h5.metrics import score
 from h5.prompts import LABEL_DEFINITIONS
@@ -21,13 +21,18 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--variant", choices=["names", "definitions"], required=True)
     ap.add_argument("--limit", type=int, default=None)
-    ap.add_argument("--dataset", choices=["test", "holdout"], default="test")
+    ap.add_argument("--dataset", choices=["test", "holdout", "holdout2", "twitter"], default="test")
     args = ap.parse_args()
-    tag = "" if args.dataset == "test" else "_holdout"
+    tag = "" if args.dataset == "test" else "_" + args.dataset
     load_dotenv()
     client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=os.environ["OPENROUTER_API_KEY"])
     defs = LABEL_DEFINITIONS if args.variant == "definitions" else None
-    rows = load_holdout() if args.dataset == "holdout" else load_split("test")
+    if args.dataset == "test":
+        rows = load_split("test")
+    elif args.dataset == "twitter":
+        rows = load_twitter()
+    else:
+        rows = load_holdout(2 if args.dataset == "holdout2" else 1)
     if args.limit:
         rows = rows[: args.limit]
     RESULTS.mkdir(exist_ok=True)

@@ -1,0 +1,1631 @@
+{
+  "metrics": {
+    "accuracy": 0.34074074074074073,
+    "macro_f1": 0.28277167343680876,
+    "confusable_accuracy": 0.45,
+    "unparseable": 0,
+    "n": 270
+  },
+  "predictions": [
+    {
+      "utterance": "so my sister just told me she's covering the gift, so the thing i bought for her birthday is no longer needed. can it be stopped before it leaves your warehouse?",
+      "true": "cancel_order",
+      "pred": "cancel_order",
+      "logp": -2.75
+    },
+    {
+      "utterance": "Ordered on impulse at 2am, regretting it now. Order #55-8821. Undo it please.",
+      "true": "cancel_order",
+      "pred": "cancel_order",
+      "logp": -2.75
+    },
+    {
+      "utterance": "we're no longer moving in march so the furniture order is pointless, how do i get that order called off",
+      "true": "cancel_order",
+      "pred": "cancel_order",
+      "logp": -4.25
+    },
+    {
+      "utterance": "hi, ive just realised ive ordered the same coat twice under two different emails, please scrap one of them",
+      "true": "cancel_order",
+      "pred": "cancel_order",
+      "logp": -3.5
+    },
+    {
+      "utterance": "Can you pull my order from fulfilment? Payday got delayed and I can't afford it right now.",
+      "true": "cancel_order",
+      "pred": "delivery_options",
+      "logp": -1.375
+    },
+    {
+      "utterance": "my order confirmation just came through but i dont want it anymore, is it too late to back out?",
+      "true": "cancel_order",
+      "pred": "cancel_order",
+      "logp": -4.25
+    },
+    {
+      "utterance": "Please void the purchase I made this afternoon.",
+      "true": "cancel_order",
+      "pred": "cancel_order",
+      "logp": -5.25
+    },
+    {
+      "utterance": "decided to buy locally instead, whats the quickest way to drop my online order",
+      "true": "cancel_order",
+      "pred": "delivery_options",
+      "logp": -0.625
+    },
+    {
+      "utterance": "Husband says we need to return the whole order anyway, so let's not even ship it. Cancel?",
+      "true": "cancel_order",
+      "pred": "cancel_order",
+      "logp": -2.75
+    },
+    {
+      "utterance": "pls dont send my order, ordered by mistake",
+      "true": "cancel_order",
+      "pred": "cancel_order",
+      "logp": -5.25
+    },
+    {
+      "utterance": "just spotted that I chose the 500ml bottle but wanted the 750ml, can that be sorted on the order before dispatch?",
+      "true": "change_order",
+      "pred": "change_order",
+      "logp": -1.375
+    },
+    {
+      "utterance": "Is it too late to throw another pair of socks into the same order?",
+      "true": "change_order",
+      "pred": "complaint",
+      "logp": -0.375
+    },
+    {
+      "utterance": "ordered 2 but my friends want some too, can you make it 5 on the same order",
+      "true": "change_order",
+      "pred": "change_order",
+      "logp": -1.25
+    },
+    {
+      "utterance": "i picked the wrong colour at checkout, red instead of green, the order hasnt shipped yet",
+      "true": "change_order",
+      "pred": "change_order",
+      "logp": -4.0
+    },
+    {
+      "utterance": "Can the engraving text on my order be altered? I misspelled the name.",
+      "true": "change_order",
+      "pred": "change_order",
+      "logp": -4.25
+    },
+    {
+      "utterance": "need the order switched from the 64gb to the 128gb version if its still possible",
+      "true": "change_order",
+      "pred": "change_order",
+      "logp": -1.75
+    },
+    {
+      "utterance": "I want to drop the gift wrap from my order and add a card instead.",
+      "true": "change_order",
+      "pred": "change_shipping_address",
+      "logp": -3.25
+    },
+    {
+      "utterance": "swap the left-handed version for the right-handed one in my order #20344",
+      "true": "change_order",
+      "pred": "change_order",
+      "logp": -1.375
+    },
+    {
+      "utterance": "can u tweak whats in my order, took the wrong style",
+      "true": "change_order",
+      "pred": "change_order",
+      "logp": -2.5
+    },
+    {
+      "utterance": "we ordered a double bed frame but need king size, can the order be updated",
+      "true": "change_order",
+      "pred": "change_order",
+      "logp": -3.5
+    },
+    {
+      "utterance": "ugh just realised the parcel is heading to my ex's place. need it going to my new flat instead",
+      "true": "change_shipping_address",
+      "pred": "complaint",
+      "logp": -0.75
+    },
+    {
+      "utterance": "Moving house on Friday, can the delivery for my open order go to the new address?",
+      "true": "change_shipping_address",
+      "pred": "delivery_options",
+      "logp": -2.75
+    },
+    {
+      "utterance": "the courier address on my order has the wrong street number",
+      "true": "change_shipping_address",
+      "pred": "delivery_options",
+      "logp": -2.75
+    },
+    {
+      "utterance": "I'm at my parents' for the holidays so could you deliver this one there instead",
+      "true": "change_shipping_address",
+      "pred": "delivery_options",
+      "logp": -0.625
+    },
+    {
+      "utterance": "my building has a new postcode now, order #8812 needs the corrected delivery details",
+      "true": "change_shipping_address",
+      "pred": "delivery_options",
+      "logp": -1.75
+    },
+    {
+      "utterance": "send it to my work address not home pls, order from last night",
+      "true": "change_shipping_address",
+      "pred": "contact_customer_service",
+      "logp": -2.0
+    },
+    {
+      "utterance": "hello, I mistyped the city when ordering. Delivery should go to Leeds, not Lees.",
+      "true": "change_shipping_address",
+      "pred": "change_order",
+      "logp": -3.5
+    },
+    {
+      "utterance": "my neighbour will accept the parcel, can the order's address be switched to theirs",
+      "true": "change_shipping_address",
+      "pred": "change_shipping_address",
+      "logp": -1.0
+    },
+    {
+      "utterance": "i gave you my billing address as the delivery one by accident, the parcel should go somewhere else",
+      "true": "change_shipping_address",
+      "pred": "change_shipping_address",
+      "logp": -1.25
+    },
+    {
+      "utterance": "need to redirect an order thats not shipped yet to another house",
+      "true": "change_shipping_address",
+      "pred": "change_order",
+      "logp": -3.0
+    },
+    {
+      "utterance": "if I change my mind after the order is confirmed, does that cost me?",
+      "true": "check_cancellation_fee",
+      "pred": "change_order",
+      "logp": -2.0
+    },
+    {
+      "utterance": "just curious whether backing out of a purchase carries any kind of charge",
+      "true": "check_cancellation_fee",
+      "pred": "check_cancellation_fee",
+      "logp": -0.5
+    },
+    {
+      "utterance": "my plans might change next week; will I be penalised for cancelling then?",
+      "true": "check_cancellation_fee",
+      "pred": "check_cancellation_fee",
+      "logp": 0.0
+    },
+    {
+      "utterance": "Is there a restocking or admin charge if I cancel before it ships?",
+      "true": "check_cancellation_fee",
+      "pred": "check_cancellation_fee",
+      "logp": -0.375
+    },
+    {
+      "utterance": "what happens money-wise if i call off the order later",
+      "true": "check_cancellation_fee",
+      "pred": "check_refund_policy",
+      "logp": -1.25
+    },
+    {
+      "utterance": "do I lose my deposit if I cancel the booking?",
+      "true": "check_cancellation_fee",
+      "pred": "cancel_order",
+      "logp": -4.25
+    },
+    {
+      "utterance": "I want to know if there are costs attached to cancelling before I commit to buying.",
+      "true": "check_cancellation_fee",
+      "pred": "check_cancellation_fee",
+      "logp": -0.5
+    },
+    {
+      "utterance": "any penalty for cancelling within the first 48 hours?",
+      "true": "check_cancellation_fee",
+      "pred": "complaint",
+      "logp": -0.625
+    },
+    {
+      "utterance": "would I be charged for pulling out of my order after payment",
+      "true": "check_cancellation_fee",
+      "pred": "change_order",
+      "logp": -2.75
+    },
+    {
+      "utterance": "Before I order: how much do you take if someone cancels?",
+      "true": "check_cancellation_fee",
+      "pred": "check_cancellation_fee",
+      "logp": -0.25
+    },
+    {
+      "utterance": "I need to read the line items on the bill for my January purchase, where do I find it?",
+      "true": "check_invoice",
+      "pred": "check_invoice",
+      "logp": -1.5
+    },
+    {
+      "utterance": "can I get to the page showing the invoice with the vat breakdown for order 7710",
+      "true": "check_invoice",
+      "pred": "check_invoice",
+      "logp": -1.125
+    },
+    {
+      "utterance": "just trying to find where my invoices live in my account so I can look at them",
+      "true": "check_invoice",
+      "pred": "check_invoice",
+      "logp": -3.0
+    },
+    {
+      "utterance": "show me the invoice amounts for the last three orders, not sending anywhere, just want to look",
+      "true": "check_invoice",
+      "pred": "check_invoice",
+      "logp": -1.375
+    },
+    {
+      "utterance": "the total on my invoice seems high and I want to go through it, where can I view it?",
+      "true": "check_invoice",
+      "pred": "check_invoice",
+      "logp": -1.75
+    },
+    {
+      "utterance": "Where's the invoice section? I want to double check what shipping I was billed.",
+      "true": "check_invoice",
+      "pred": "check_invoice",
+      "logp": -1.125
+    },
+    {
+      "utterance": "how do I open the invoice for something I paid yesterday",
+      "true": "check_invoice",
+      "pred": "check_invoice",
+      "logp": -2.25
+    },
+    {
+      "utterance": "I'd like to inspect my invoice details online",
+      "true": "check_invoice",
+      "pred": "check_invoice",
+      "logp": -2.0
+    },
+    {
+      "utterance": "is the invoice for my recent order visible somewhere in my account",
+      "true": "check_invoice",
+      "pred": "check_invoice",
+      "logp": -1.5
+    },
+    {
+      "utterance": "want to see what's written on the invoice for my order",
+      "true": "check_invoice",
+      "pred": "check_invoice",
+      "logp": -1.5
+    },
+    {
+      "utterance": "I don't own a credit card, is there any other way to pay?",
+      "true": "check_payment_methods",
+      "pred": "contact_customer_service",
+      "logp": -4.375
+    },
+    {
+      "utterance": "wondering if I can use my debit card, or Google Pay, when I check out",
+      "true": "check_payment_methods",
+      "pred": "check_payment_methods",
+      "logp": -1.75
+    },
+    {
+      "utterance": "can I settle up with a voucher plus a card",
+      "true": "check_payment_methods",
+      "pred": "change_order",
+      "logp": -3.0
+    },
+    {
+      "utterance": "What are my options for paying? Only cards?",
+      "true": "check_payment_methods",
+      "pred": "check_payment_methods",
+      "logp": -1.0
+    },
+    {
+      "utterance": "do you take direct debit?",
+      "true": "check_payment_methods",
+      "pred": "check_payment_methods",
+      "logp": -0.75
+    },
+    {
+      "utterance": "I'd rather not use a card online, do you have alternatives like bank transfer or cash on delivery",
+      "true": "check_payment_methods",
+      "pred": "contact_customer_service",
+      "logp": -2.75
+    },
+    {
+      "utterance": "Does your shop work with Klarna or similar?",
+      "true": "check_payment_methods",
+      "pred": "contact_customer_service",
+      "logp": -2.875
+    },
+    {
+      "utterance": "can i use store credit together with paypal",
+      "true": "check_payment_methods",
+      "pred": "check_payment_methods",
+      "logp": -2.375
+    },
+    {
+      "utterance": "which forms of payment are accepted for international orders?",
+      "true": "check_payment_methods",
+      "pred": "check_payment_methods",
+      "logp": -2.25
+    },
+    {
+      "utterance": "is it possible to pay in instalments",
+      "true": "check_payment_methods",
+      "pred": "check_payment_methods",
+      "logp": -1.5
+    },
+    {
+      "utterance": "thinking of buying but nervous, if it's wrong for me can I send it back for my money?",
+      "true": "check_refund_policy",
+      "pred": "change_shipping_address",
+      "logp": -0.75
+    },
+    {
+      "utterance": "what are the terms if I want to return an item and get reimbursed",
+      "true": "check_refund_policy",
+      "pred": "check_refund_policy",
+      "logp": -1.125
+    },
+    {
+      "utterance": "within what window can I return a purchase and be paid back",
+      "true": "check_refund_policy",
+      "pred": "change_order",
+      "logp": -4.5
+    },
+    {
+      "utterance": "Do you give money back for used items?",
+      "true": "check_refund_policy",
+      "pred": "complaint",
+      "logp": -0.5
+    },
+    {
+      "utterance": "Is there a time limit on returns for a full refund?",
+      "true": "check_refund_policy",
+      "pred": "check_refund_policy",
+      "logp": -0.375
+    },
+    {
+      "utterance": "if the product arrives faulty, what do you do about refunds in general",
+      "true": "check_refund_policy",
+      "pred": "complaint",
+      "logp": -1.0
+    },
+    {
+      "utterance": "what's your stance on refunding opened packaging",
+      "true": "check_refund_policy",
+      "pred": "check_refund_policy",
+      "logp": -1.375
+    },
+    {
+      "utterance": "Can you tell me what your return and money-back rules are?",
+      "true": "check_refund_policy",
+      "pred": "check_refund_policy",
+      "logp": -0.75
+    },
+    {
+      "utterance": "are shipping costs refunded too under your policy",
+      "true": "check_refund_policy",
+      "pred": "check_refund_policy",
+      "logp": -0.625
+    },
+    {
+      "utterance": "how does money-back work with you guys, any conditions?",
+      "true": "check_refund_policy",
+      "pred": "complaint",
+      "logp": -0.75
+    },
+    {
+      "utterance": "Honestly I'm fed up. This is the third time my order has turned up late and the support chat just reads out scripts.",
+      "true": "complaint",
+      "pred": "complaint",
+      "logp": -0.125
+    },
+    {
+      "utterance": "I want to put on record how badly this was handled.",
+      "true": "complaint",
+      "pred": "complaint",
+      "logp": -0.5
+    },
+    {
+      "utterance": "The delivery guy threw my parcel over the fence and it's smashed. Not okay. Who do I talk to about this?",
+      "true": "complaint",
+      "pred": "complaint",
+      "logp": -0.25
+    },
+    {
+      "utterance": "i paid for premium and the thing is cheap plastic. very disappointed, want this raised formally",
+      "true": "complaint",
+      "pred": "complaint",
+      "logp": -0.25
+    },
+    {
+      "utterance": "i have been ignored for two weeks and i am angry",
+      "true": "complaint",
+      "pred": "complaint",
+      "logp": -0.375
+    },
+    {
+      "utterance": "your staff were rude to my mother on the phone. I'm writing to complain.",
+      "true": "complaint",
+      "pred": "complaint",
+      "logp": -1.0
+    },
+    {
+      "utterance": "Awful. Just awful. The item was used and dirty when it arrived.",
+      "true": "complaint",
+      "pred": "complaint",
+      "logp": -0.25
+    },
+    {
+      "utterance": "I'd like to submit a grievance about my last experience with your company.",
+      "true": "complaint",
+      "pred": "complaint",
+      "logp": -0.875
+    },
+    {
+      "utterance": "so disappointed with the quality, nothing like advertised. This needs to be escalated as a complaint",
+      "true": "complaint",
+      "pred": "complaint",
+      "logp": -0.375
+    },
+    {
+      "utterance": "worst service i've had in years, i want someone to hear this",
+      "true": "complaint",
+      "pred": "complaint",
+      "logp": -0.125
+    },
+    {
+      "utterance": "Hey, is there a number I can ring if I have questions?",
+      "true": "contact_customer_service",
+      "pred": "contact_customer_service",
+      "logp": -2.0
+    },
+    {
+      "utterance": "who do i speak to about general questions, and when are they open",
+      "true": "contact_customer_service",
+      "pred": "contact_customer_service",
+      "logp": -2.625
+    },
+    {
+      "utterance": "need your helpline details please",
+      "true": "contact_customer_service",
+      "pred": "contact_customer_service",
+      "logp": -3.75
+    },
+    {
+      "utterance": "Is there a support email or form? I couldn't spot one anywhere.",
+      "true": "contact_customer_service",
+      "pred": "contact_customer_service",
+      "logp": -2.25
+    },
+    {
+      "utterance": "what's the best channel to get hold of your team, phone, chat or mail?",
+      "true": "contact_customer_service",
+      "pred": "contact_customer_service",
+      "logp": -3.375
+    },
+    {
+      "utterance": "can you point me to the contact page for support",
+      "true": "contact_customer_service",
+      "pred": "contact_customer_service",
+      "logp": -2.625
+    },
+    {
+      "utterance": "how do I get in touch with you guys outside business hours",
+      "true": "contact_customer_service",
+      "pred": "contact_customer_service",
+      "logp": -3.5
+    },
+    {
+      "utterance": "do you have a customer service line that's free to call",
+      "true": "contact_customer_service",
+      "pred": "contact_customer_service",
+      "logp": -2.125
+    },
+    {
+      "utterance": "Looking for the postal address of your service centre.",
+      "true": "contact_customer_service",
+      "pred": "contact_customer_service",
+      "logp": -4.625
+    },
+    {
+      "utterance": "how can i message your support",
+      "true": "contact_customer_service",
+      "pred": "contact_customer_service",
+      "logp": -2.125
+    },
+    {
+      "utterance": "i keep getting automated replies, i really need a person on this",
+      "true": "contact_human_agent",
+      "pred": "contact_customer_service",
+      "logp": -2.0
+    },
+    {
+      "utterance": "Can someone actually pick this up? Not a bot please.",
+      "true": "contact_human_agent",
+      "pred": "contact_customer_service",
+      "logp": -0.75
+    },
+    {
+      "utterance": "put me through to staff",
+      "true": "contact_human_agent",
+      "pred": "contact_customer_service",
+      "logp": -2.0
+    },
+    {
+      "utterance": "Is there a way to chat with a real employee rather than the assistant?",
+      "true": "contact_human_agent",
+      "pred": "contact_customer_service",
+      "logp": -2.5
+    },
+    {
+      "utterance": "I'd prefer to explain my situation to a living, breathing agent",
+      "true": "contact_human_agent",
+      "pred": "contact_human_agent",
+      "logp": -1.75
+    },
+    {
+      "utterance": "escalate me to a person, the automated help is useless",
+      "true": "contact_human_agent",
+      "pred": "contact_human_agent",
+      "logp": -1.5
+    },
+    {
+      "utterance": "operator please",
+      "true": "contact_human_agent",
+      "pred": "contact_customer_service",
+      "logp": -2.0
+    },
+    {
+      "utterance": "could a team member call me instead of this auto-responder",
+      "true": "contact_human_agent",
+      "pred": "contact_customer_service",
+      "logp": -1.625
+    },
+    {
+      "utterance": "talk to someone real. now.",
+      "true": "contact_human_agent",
+      "pred": "contact_human_agent",
+      "logp": -2.125
+    },
+    {
+      "utterance": "human help required, the virtual assistant does not understand my problem",
+      "true": "contact_human_agent",
+      "pred": "contact_customer_service",
+      "logp": -2.5
+    },
+    {
+      "utterance": "I'm new here and would like to start shopping with a login, where do I begin?",
+      "true": "create_account",
+      "pred": "registration_problems",
+      "logp": -0.5
+    },
+    {
+      "utterance": "can I register an account with my email, I haven't got one yet",
+      "true": "create_account",
+      "pred": "registration_problems",
+      "logp": -1.75
+    },
+    {
+      "utterance": "how do new customers get an account on this site?",
+      "true": "create_account",
+      "pred": "get_refund",
+      "logp": -30.75
+    },
+    {
+      "utterance": "want to open a profile to save my stuff for later",
+      "true": "create_account",
+      "pred": "create_account",
+      "logp": -2.75
+    },
+    {
+      "utterance": "Show me how to join, please.",
+      "true": "create_account",
+      "pred": "contact_customer_service",
+      "logp": -2.375
+    },
+    {
+      "utterance": "what do I need to provide to make an account with you",
+      "true": "create_account",
+      "pred": "contact_customer_service",
+      "logp": -2.125
+    },
+    {
+      "utterance": "how to sign up",
+      "true": "create_account",
+      "pred": "registration_problems",
+      "logp": -1.75
+    },
+    {
+      "utterance": "hi, I want an account so I can track my purchases in future",
+      "true": "create_account",
+      "pred": "create_account",
+      "logp": -3.5
+    },
+    {
+      "utterance": "I'd like to become a member, how do I enrol",
+      "true": "create_account",
+      "pred": "registration_problems",
+      "logp": -1.25
+    },
+    {
+      "utterance": "How do I get myself set up as a customer in your system",
+      "true": "create_account",
+      "pred": "registration_problems",
+      "logp": -0.75
+    },
+    {
+      "utterance": "I'm leaving your platform and want all my personal info gone, how do I do that?",
+      "true": "delete_account",
+      "pred": "delete_account",
+      "logp": -4.75
+    },
+    {
+      "utterance": "can i have my account removed, im not using it anymore",
+      "true": "delete_account",
+      "pred": "cancel_order",
+      "logp": -5.25
+    },
+    {
+      "utterance": "how do I wipe my profile entirely",
+      "true": "delete_account",
+      "pred": "delete_account",
+      "logp": -5.0
+    },
+    {
+      "utterance": "Please erase my account and data, GDPR request.",
+      "true": "delete_account",
+      "pred": "cancel_order",
+      "logp": -7.0
+    },
+    {
+      "utterance": "I want out. Remove me from your system.",
+      "true": "delete_account",
+      "pred": "cancel_order",
+      "logp": -4.5
+    },
+    {
+      "utterance": "Where do I go to permanently close my membership?",
+      "true": "delete_account",
+      "pred": "cancel_order",
+      "logp": -4.5
+    },
+    {
+      "utterance": "got a new job, no longer need this account, please shut it",
+      "true": "delete_account",
+      "pred": "cancel_order",
+      "logp": -5.0
+    },
+    {
+      "utterance": "Could you take my details off your servers and close the account?",
+      "true": "delete_account",
+      "pred": "cancel_order",
+      "logp": -5.0
+    },
+    {
+      "utterance": "how can i unregister completely from your site",
+      "true": "delete_account",
+      "pred": "cancel_order",
+      "logp": -6.75
+    },
+    {
+      "utterance": "end my account, thanks",
+      "true": "delete_account",
+      "pred": "cancel_order",
+      "logp": -3.5
+    },
+    {
+      "utterance": "can I have it delivered to a pickup point or only to my door?",
+      "true": "delivery_options",
+      "pred": "delivery_options",
+      "logp": -0.625
+    },
+    {
+      "utterance": "any faster shipping choices if I pay extra?",
+      "true": "delivery_options",
+      "pred": "delivery_options",
+      "logp": -0.375
+    },
+    {
+      "utterance": "what ways of receiving my order are on offer",
+      "true": "delivery_options",
+      "pred": "contact_customer_service",
+      "logp": -2.625
+    },
+    {
+      "utterance": "do you deliver on weekends or evenings?",
+      "true": "delivery_options",
+      "pred": "delivery_options",
+      "logp": -1.0
+    },
+    {
+      "utterance": "are there eco-friendly or slower-but-cheaper shipping alternatives",
+      "true": "delivery_options",
+      "pred": "delivery_options",
+      "logp": -1.0
+    },
+    {
+      "utterance": "Which carriers do you ship with, and can I pick between them?",
+      "true": "delivery_options",
+      "pred": "check_cancellation_fee",
+      "logp": -7.125
+    },
+    {
+      "utterance": "Is click and collect a thing with you?",
+      "true": "delivery_options",
+      "pred": "contact_customer_service",
+      "logp": -2.375
+    },
+    {
+      "utterance": "options for getting a big item delivered to me?",
+      "true": "delivery_options",
+      "pred": "contact_customer_service",
+      "logp": -3.0
+    },
+    {
+      "utterance": "Do you have 2-day shipping available for my area?",
+      "true": "delivery_options",
+      "pred": "delivery_options",
+      "logp": -1.75
+    },
+    {
+      "utterance": "what kinds of shipping can I choose when buying",
+      "true": "delivery_options",
+      "pred": "delivery_options",
+      "logp": -0.375
+    },
+    {
+      "utterance": "I need to know if it will get to me before Christmas if I order tonight",
+      "true": "delivery_period",
+      "pred": "delivery_options",
+      "logp": -0.5
+    },
+    {
+      "utterance": "roughly how many days from clicking buy to getting the parcel?",
+      "true": "delivery_period",
+      "pred": "track_order",
+      "logp": -0.5
+    },
+    {
+      "utterance": "how soon will it be with me",
+      "true": "delivery_period",
+      "pred": "delivery_options",
+      "logp": -0.375
+    },
+    {
+      "utterance": "what's the lead time for delivery in Scotland",
+      "true": "delivery_period",
+      "pred": "delivery_options",
+      "logp": -1.75
+    },
+    {
+      "utterance": "will a standard delivery order land within a week?",
+      "true": "delivery_period",
+      "pred": "delivery_options",
+      "logp": -0.875
+    },
+    {
+      "utterance": "do orders usually take days or weeks to arrive?",
+      "true": "delivery_period",
+      "pred": "delivery_options",
+      "logp": -0.875
+    },
+    {
+      "utterance": "Is delivery to Ireland quick or does it take ages?",
+      "true": "delivery_period",
+      "pred": "delivery_options",
+      "logp": -0.75
+    },
+    {
+      "utterance": "How many days does express usually take?",
+      "true": "delivery_period",
+      "pred": "check_cancellation_fee",
+      "logp": -0.25
+    },
+    {
+      "utterance": "what timeframe should I expect for shipping to Australia",
+      "true": "delivery_period",
+      "pred": "delivery_options",
+      "logp": -1.0
+    },
+    {
+      "utterance": "when would an order made on Monday normally turn up",
+      "true": "delivery_period",
+      "pred": "delivery_options",
+      "logp": -0.875
+    },
+    {
+      "utterance": "the name on my profile has a typo, where can I fix it",
+      "true": "edit_account",
+      "pred": "contact_customer_service",
+      "logp": -2.5
+    },
+    {
+      "utterance": "need to put a different phone number on my account",
+      "true": "edit_account",
+      "pred": "contact_customer_service",
+      "logp": -3.25
+    },
+    {
+      "utterance": "I got married and want my surname updated on my account",
+      "true": "edit_account",
+      "pred": "change_shipping_address",
+      "logp": -11.625
+    },
+    {
+      "utterance": "how do I update the email my account uses",
+      "true": "edit_account",
+      "pred": "contact_customer_service",
+      "logp": -2.75
+    },
+    {
+      "utterance": "can I change my username?",
+      "true": "edit_account",
+      "pred": "change_order",
+      "logp": -3.5
+    },
+    {
+      "utterance": "where do I correct my details in my profile",
+      "true": "edit_account",
+      "pred": "contact_customer_service",
+      "logp": -3.75
+    },
+    {
+      "utterance": "my account's saved birthday is wrong, how do I change that",
+      "true": "edit_account",
+      "pred": "change_order",
+      "logp": -2.5
+    },
+    {
+      "utterance": "update the contact info stored on my account please",
+      "true": "edit_account",
+      "pred": "contact_customer_service",
+      "logp": -3.0
+    },
+    {
+      "utterance": "how to modify my personal info in settings",
+      "true": "edit_account",
+      "pred": "change_order",
+      "logp": -14.25
+    },
+    {
+      "utterance": "my profile picture and display name need changing",
+      "true": "edit_account",
+      "pred": "change_order",
+      "logp": -23.25
+    },
+    {
+      "utterance": "my finance team needs the official invoice for the order i made on the 3rd, can you email it over",
+      "true": "get_invoice",
+      "pred": "check_invoice",
+      "logp": -1.0
+    },
+    {
+      "utterance": "please generate and send me a vat invoice with our company name on it",
+      "true": "get_invoice",
+      "pred": "check_invoice",
+      "logp": -3.75
+    },
+    {
+      "utterance": "i'd like the paperwork (invoice) for my purchase delivered to my inbox",
+      "true": "get_invoice",
+      "pred": "check_invoice",
+      "logp": -2.25
+    },
+    {
+      "utterance": "Can I get an invoice in PDF for order 4471? Need it for reimbursement.",
+      "true": "get_invoice",
+      "pred": "check_invoice",
+      "logp": -3.0
+    },
+    {
+      "utterance": "never received the tax invoice, kindly send a copy",
+      "true": "get_invoice",
+      "pred": "check_invoice",
+      "logp": -2.875
+    },
+    {
+      "utterance": "send invoice pls, thanks",
+      "true": "get_invoice",
+      "pred": "check_invoice",
+      "logp": -1.25
+    },
+    {
+      "utterance": "my employer wants proof of purchase, an invoice. could you forward one",
+      "true": "get_invoice",
+      "pred": "check_invoice",
+      "logp": -2.0
+    },
+    {
+      "utterance": "I lost the invoice from my last order and need another sent to me.",
+      "true": "get_invoice",
+      "pred": "check_invoice",
+      "logp": -3.75
+    },
+    {
+      "utterance": "Could you attach an invoice for my order and send it to my email?",
+      "true": "get_invoice",
+      "pred": "check_invoice",
+      "logp": -3.875
+    },
+    {
+      "utterance": "I need a downloadable invoice for customs",
+      "true": "get_invoice",
+      "pred": "check_invoice",
+      "logp": -3.75
+    },
+    {
+      "utterance": "The shoes don't fit and I've sent them back, I'd like my money returned.",
+      "true": "get_refund",
+      "pred": "cancel_order",
+      "logp": -7.375
+    },
+    {
+      "utterance": "this arrived broken, I want a refund",
+      "true": "get_refund",
+      "pred": "check_refund_policy",
+      "logp": -1.5
+    },
+    {
+      "utterance": "can I be reimbursed for an order that never turned up",
+      "true": "get_refund",
+      "pred": "check_refund_policy",
+      "logp": -1.0
+    },
+    {
+      "utterance": "please refund the duplicate payment",
+      "true": "get_refund",
+      "pred": "check_refund_policy",
+      "logp": -1.5
+    },
+    {
+      "utterance": "Not what I ordered. I want my money back.",
+      "true": "get_refund",
+      "pred": "cancel_order",
+      "logp": -8.375
+    },
+    {
+      "utterance": "I'd like to claim a refund, the item is faulty",
+      "true": "get_refund",
+      "pred": "check_refund_policy",
+      "logp": -1.25
+    },
+    {
+      "utterance": "I need a refund for the subscription I didn't use",
+      "true": "get_refund",
+      "pred": "check_refund_policy",
+      "logp": -1.25
+    },
+    {
+      "utterance": "request to be paid back for the damaged parcel",
+      "true": "get_refund",
+      "pred": "cancel_order",
+      "logp": -4.875
+    },
+    {
+      "utterance": "You sent the wrong colour and I'd rather have a refund than a replacement.",
+      "true": "get_refund",
+      "pred": "change_order",
+      "logp": -4.25
+    },
+    {
+      "utterance": "refund me please, the goods are on their way back",
+      "true": "get_refund",
+      "pred": "check_refund_policy",
+      "logp": -7.75
+    },
+    {
+      "utterance": "put me on the list for offers and news",
+      "true": "newsletter_subscription",
+      "pred": "newsletter_subscription",
+      "logp": -1.125
+    },
+    {
+      "utterance": "Stop the marketing emails, they're clogging my inbox.",
+      "true": "newsletter_subscription",
+      "pred": "contact_customer_service",
+      "logp": -2.5
+    },
+    {
+      "utterance": "how do I get your deals delivered by email?",
+      "true": "newsletter_subscription",
+      "pred": "newsletter_subscription",
+      "logp": -2.375
+    },
+    {
+      "utterance": "I never signed up for emails, unsubscribe me",
+      "true": "newsletter_subscription",
+      "pred": "contact_customer_service",
+      "logp": -2.875
+    },
+    {
+      "utterance": "where can I opt in for your monthly digest",
+      "true": "newsletter_subscription",
+      "pred": "newsletter_subscription",
+      "logp": -0.75
+    },
+    {
+      "utterance": "can I choose how often I get your promo emails or turn them off?",
+      "true": "newsletter_subscription",
+      "pred": "contact_customer_service",
+      "logp": -1.875
+    },
+    {
+      "utterance": "I want to receive your email updates, how?",
+      "true": "newsletter_subscription",
+      "pred": "contact_customer_service",
+      "logp": -2.5
+    },
+    {
+      "utterance": "remove me from your mailing list",
+      "true": "newsletter_subscription",
+      "pred": "contact_customer_service",
+      "logp": -2.0
+    },
+    {
+      "utterance": "Subscribe me, please, to the emails with discount codes.",
+      "true": "newsletter_subscription",
+      "pred": "newsletter_subscription",
+      "logp": -1.375
+    },
+    {
+      "utterance": "unsub",
+      "true": "newsletter_subscription",
+      "pred": "cancel_order",
+      "logp": -3.0
+    },
+    {
+      "utterance": "the money's gone from my bank but the site says my order wasn't paid",
+      "true": "payment_issue",
+      "pred": "check_payment_methods",
+      "logp": -9.25
+    },
+    {
+      "utterance": "Tried to pay three times, always an error, and now I'm worried I'll be billed multiple times.",
+      "true": "payment_issue",
+      "pred": "check_payment_methods",
+      "logp": -16.75
+    },
+    {
+      "utterance": "it let me pay but then showed a failure page",
+      "true": "payment_issue",
+      "pred": "check_payment_methods",
+      "logp": -1.75
+    },
+    {
+      "utterance": "My bank notified me of two charges for one purchase.",
+      "true": "payment_issue",
+      "pred": "check_payment_methods",
+      "logp": -37.0
+    },
+    {
+      "utterance": "payment won't process, it just spins",
+      "true": "payment_issue",
+      "pred": "payment_issue",
+      "logp": -1.75
+    },
+    {
+      "utterance": "paypal says paid, your site says awaiting payment",
+      "true": "payment_issue",
+      "pred": "cancel_order",
+      "logp": -3.0
+    },
+    {
+      "utterance": "I was billed in the wrong currency and the amount is off",
+      "true": "payment_issue",
+      "pred": "check_payment_methods",
+      "logp": -18.625
+    },
+    {
+      "utterance": "card was charged but I got no confirmation email",
+      "true": "payment_issue",
+      "pred": "contact_customer_service",
+      "logp": -2.75
+    },
+    {
+      "utterance": "checkout threw an error right after taking my payment",
+      "true": "payment_issue",
+      "pred": "check_payment_methods",
+      "logp": -28.625
+    },
+    {
+      "utterance": "why was I debited twice?",
+      "true": "payment_issue",
+      "pred": "check_payment_methods",
+      "logp": -23.0
+    },
+    {
+      "utterance": "I'd like to buy two of the grey sofas, what do I do next?",
+      "true": "place_order",
+      "pred": "change_order",
+      "logp": -2.0
+    },
+    {
+      "utterance": "ready to checkout with my basket, how do I confirm the purchase?",
+      "true": "place_order",
+      "pred": "change_order",
+      "logp": -2.5
+    },
+    {
+      "utterance": "can you take my order for a dozen roses for Saturday?",
+      "true": "place_order",
+      "pred": "place_order",
+      "logp": -4.375
+    },
+    {
+      "utterance": "I want to get the black trainers in 42, how do I buy them",
+      "true": "place_order",
+      "pred": "get_invoice",
+      "logp": -2.75
+    },
+    {
+      "utterance": "need to buy this for my daughter's birthday, show me how to order it",
+      "true": "place_order",
+      "pred": "place_order",
+      "logp": -4.0
+    },
+    {
+      "utterance": "how do I complete a purchase as a guest?",
+      "true": "place_order",
+      "pred": "contact_customer_service",
+      "logp": -4.125
+    },
+    {
+      "utterance": "purchase help: I can't figure out the buying steps.",
+      "true": "place_order",
+      "pred": "contact_customer_service",
+      "logp": -2.25
+    },
+    {
+      "utterance": "Take my order please: one large pizza oven, delivered.",
+      "true": "place_order",
+      "pred": "delivery_options",
+      "logp": -1.25
+    },
+    {
+      "utterance": "I want to order from your catalogue by phone, is that okay",
+      "true": "place_order",
+      "pred": "place_order",
+      "logp": -1.5
+    },
+    {
+      "utterance": "lets buy it, what do i click",
+      "true": "place_order",
+      "pred": "contact_customer_service",
+      "logp": -1.5
+    },
+    {
+      "utterance": "i can't remember how i logged in, the password isn't what i think it is",
+      "true": "recover_password",
+      "pred": "contact_customer_service",
+      "logp": -1.5
+    },
+    {
+      "utterance": "Locked out of my account, what now?",
+      "true": "recover_password",
+      "pred": "contact_customer_service",
+      "logp": -3.75
+    },
+    {
+      "utterance": "trying to reset my login but no email shows up",
+      "true": "recover_password",
+      "pred": "contact_customer_service",
+      "logp": -2.75
+    },
+    {
+      "utterance": "I need a new password; the old one has slipped my mind",
+      "true": "recover_password",
+      "pred": "change_order",
+      "logp": -31.5
+    },
+    {
+      "utterance": "How do I regain access if I've forgotten my credentials?",
+      "true": "recover_password",
+      "pred": "contact_customer_service",
+      "logp": -2.75
+    },
+    {
+      "utterance": "wrong password 5 times and now i'm blocked, help me get back in",
+      "true": "recover_password",
+      "pred": "contact_customer_service",
+      "logp": -3.625
+    },
+    {
+      "utterance": "can you reset my password for me",
+      "true": "recover_password",
+      "pred": "check_payment_methods",
+      "logp": -8.25
+    },
+    {
+      "utterance": "'forgot password' link doesn't work for me, any other way?",
+      "true": "recover_password",
+      "pred": "contact_customer_service",
+      "logp": -2.25
+    },
+    {
+      "utterance": "the app keeps saying incorrect password and i've no idea what it should be",
+      "true": "recover_password",
+      "pred": "check_payment_methods",
+      "logp": -16.375
+    },
+    {
+      "utterance": "get me back into my profile, can't recall the passcode",
+      "true": "recover_password",
+      "pred": "contact_customer_service",
+      "logp": -2.125
+    },
+    {
+      "utterance": "I filled in the sign-up form but nothing happens after I press the button",
+      "true": "registration_problems",
+      "pred": "contact_customer_service",
+      "logp": -2.0
+    },
+    {
+      "utterance": "keeps telling me my details are invalid when I try to register",
+      "true": "registration_problems",
+      "pred": "registration_problems",
+      "logp": -1.375
+    },
+    {
+      "utterance": "tried to make an account but the SMS code never arrives",
+      "true": "registration_problems",
+      "pred": "contact_customer_service",
+      "logp": -2.25
+    },
+    {
+      "utterance": "Can't finish creating my profile, the page just loads forever.",
+      "true": "registration_problems",
+      "pred": "contact_customer_service",
+      "logp": -2.875
+    },
+    {
+      "utterance": "Registration is broken for me, I get a red error banner each time.",
+      "true": "registration_problems",
+      "pred": "registration_problems",
+      "logp": -0.5
+    },
+    {
+      "utterance": "the signup says email already taken, but this is my first time here",
+      "true": "registration_problems",
+      "pred": "contact_customer_service",
+      "logp": -1.25
+    },
+    {
+      "utterance": "I clicked the verification link and it says expired immediately",
+      "true": "registration_problems",
+      "pred": "cancel_order",
+      "logp": -4.25
+    },
+    {
+      "utterance": "can't get past the captcha when registering",
+      "true": "registration_problems",
+      "pred": "contact_customer_service",
+      "logp": -2.0
+    },
+    {
+      "utterance": "when I try to open a new account, the website crashes",
+      "true": "registration_problems",
+      "pred": "contact_customer_service",
+      "logp": -2.25
+    },
+    {
+      "utterance": "something is wrong with the sign-up, I've been stuck all morning",
+      "true": "registration_problems",
+      "pred": "contact_customer_service",
+      "logp": -2.0
+    },
+    {
+      "utterance": "the jacket is great, how can I tell other shoppers that?",
+      "true": "review",
+      "pred": "contact_customer_service",
+      "logp": -1.25
+    },
+    {
+      "utterance": "I want to give your seller a star rating",
+      "true": "review",
+      "pred": "complaint",
+      "logp": -0.125
+    },
+    {
+      "utterance": "where do I write what I thought about the book I got",
+      "true": "review",
+      "pred": "contact_customer_service",
+      "logp": -2.625
+    },
+    {
+      "utterance": "can I post my honest opinion about this item online",
+      "true": "review",
+      "pred": "complaint",
+      "logp": -0.375
+    },
+    {
+      "utterance": "How do I rate the product I received last week?",
+      "true": "review",
+      "pred": "contact_customer_service",
+      "logp": -2.25
+    },
+    {
+      "utterance": "how do i submit feedback on my order experience",
+      "true": "review",
+      "pred": "complaint",
+      "logp": -1.625
+    },
+    {
+      "utterance": "Want to leave 4 stars and a comment for the shop.",
+      "true": "review",
+      "pred": "complaint",
+      "logp": -0.125
+    },
+    {
+      "utterance": "is there a testimonial or review form on the site",
+      "true": "review",
+      "pred": "contact_customer_service",
+      "logp": -2.875
+    },
+    {
+      "utterance": "I'd like to write up my thoughts on the headphones",
+      "true": "review",
+      "pred": "contact_customer_service",
+      "logp": -2.0
+    },
+    {
+      "utterance": "where do customers post their ratings?",
+      "true": "review",
+      "pred": "contact_customer_service",
+      "logp": -2.25
+    },
+    {
+      "utterance": "this is my first order and I haven't given you an address yet, where does that go?",
+      "true": "set_up_shipping_address",
+      "pred": "contact_customer_service",
+      "logp": -2.125
+    },
+    {
+      "utterance": "how can I store a home address for deliveries in my account",
+      "true": "set_up_shipping_address",
+      "pred": "change_shipping_address",
+      "logp": -1.625
+    },
+    {
+      "utterance": "I need to add a place for parcels to be sent, I don't have one saved",
+      "true": "set_up_shipping_address",
+      "pred": "create_account",
+      "logp": -16.5
+    },
+    {
+      "utterance": "want to add my work address as a delivery option",
+      "true": "set_up_shipping_address",
+      "pred": "change_shipping_address",
+      "logp": -1.5
+    },
+    {
+      "utterance": "where do I enter a new address for shipping?",
+      "true": "set_up_shipping_address",
+      "pred": "change_shipping_address",
+      "logp": -2.625
+    },
+    {
+      "utterance": "I would like to save an address so I don't need to type it every time",
+      "true": "set_up_shipping_address",
+      "pred": "contact_customer_service",
+      "logp": -2.25
+    },
+    {
+      "utterance": "can I keep a list of delivery addresses in my profile",
+      "true": "set_up_shipping_address",
+      "pred": "contact_customer_service",
+      "logp": -3.125
+    },
+    {
+      "utterance": "adding a delivery location for the first time, how",
+      "true": "set_up_shipping_address",
+      "pred": "create_account",
+      "logp": -3.875
+    },
+    {
+      "utterance": "my profile is missing an address for shipments, please help me put one in",
+      "true": "set_up_shipping_address",
+      "pred": "change_shipping_address",
+      "logp": -2.0
+    },
+    {
+      "utterance": "Where do I set my default delivery address?",
+      "true": "set_up_shipping_address",
+      "pred": "set_up_shipping_address",
+      "logp": -1.875
+    },
+    {
+      "utterance": "I've got a personal and a business login, how do I jump between them",
+      "true": "switch_account",
+      "pred": "contact_customer_service",
+      "logp": -4.5
+    },
+    {
+      "utterance": "Can I use a different account than the one I'm currently signed in to?",
+      "true": "switch_account",
+      "pred": "contact_customer_service",
+      "logp": -4.125
+    },
+    {
+      "utterance": "I want to change over to my wife's account on the shared tablet",
+      "true": "switch_account",
+      "pred": "change_order",
+      "logp": -1.75
+    },
+    {
+      "utterance": "how to log out and sign in as another user",
+      "true": "switch_account",
+      "pred": "contact_customer_service",
+      "logp": -3.5
+    },
+    {
+      "utterance": "i signed up twice, how do i go back to my first account",
+      "true": "switch_account",
+      "pred": "contact_customer_service",
+      "logp": -2.75
+    },
+    {
+      "utterance": "swap to my second profile on the app",
+      "true": "switch_account",
+      "pred": "change_shipping_address",
+      "logp": -1.0
+    },
+    {
+      "utterance": "which button lets me change the account I'm using?",
+      "true": "switch_account",
+      "pred": "change_order",
+      "logp": -2.0
+    },
+    {
+      "utterance": "how do i toggle between my accounts",
+      "true": "switch_account",
+      "pred": "contact_customer_service",
+      "logp": -2.375
+    },
+    {
+      "utterance": "need to use my other login now, where",
+      "true": "switch_account",
+      "pred": "contact_customer_service",
+      "logp": -1.25
+    },
+    {
+      "utterance": "move me over to my other account please",
+      "true": "switch_account",
+      "pred": "contact_customer_service",
+      "logp": -2.875
+    },
+    {
+      "utterance": "my parcel was meant to come on tuesday and nothing yet, where is it now?",
+      "true": "track_order",
+      "pred": "delivery_options",
+      "logp": -1.75
+    },
+    {
+      "utterance": "can I check how far along my delivery is",
+      "true": "track_order",
+      "pred": "track_order",
+      "logp": -0.5
+    },
+    {
+      "utterance": "got a tracking code but the link shows no info, what's happening with my order",
+      "true": "track_order",
+      "pred": "track_order",
+      "logp": -1.375
+    },
+    {
+      "utterance": "when's it going to arrive, it says shipped but nothing since",
+      "true": "track_order",
+      "pred": "delivery_options",
+      "logp": -0.5
+    },
+    {
+      "utterance": "Is my order out for delivery today?",
+      "true": "track_order",
+      "pred": "delivery_options",
+      "logp": -0.75
+    },
+    {
+      "utterance": "need the latest on order 5520, is it dispatched",
+      "true": "track_order",
+      "pred": "delivery_options",
+      "logp": -0.75
+    },
+    {
+      "utterance": "the courier's page isn't updating. Where's my package?",
+      "true": "track_order",
+      "pred": "track_order",
+      "logp": -2.0
+    },
+    {
+      "utterance": "check where my order is please",
+      "true": "track_order",
+      "pred": "check_cancellation_fee",
+      "logp": -24.25
+    },
+    {
+      "utterance": "I'm waiting for something I ordered last week; what's its status?",
+      "true": "track_order",
+      "pred": "check_cancellation_fee",
+      "logp": -22.0
+    },
+    {
+      "utterance": "any news on my shipment?",
+      "true": "track_order",
+      "pred": "track_order",
+      "logp": -1.25
+    },
+    {
+      "utterance": "sent it back ten days ago, haven't seen the money yet, is it being processed?",
+      "true": "track_refund",
+      "pred": "check_refund_policy",
+      "logp": -0.5
+    },
+    {
+      "utterance": "how long until my refund lands in my account? you approved it",
+      "true": "track_refund",
+      "pred": "check_refund_policy",
+      "logp": -0.25
+    },
+    {
+      "utterance": "I was told a refund was issued, but my balance hasn't changed",
+      "true": "track_refund",
+      "pred": "check_refund_policy",
+      "logp": -0.5
+    },
+    {
+      "utterance": "Status of the money for my returned jumper?",
+      "true": "track_refund",
+      "pred": "check_refund_policy",
+      "logp": -0.25
+    },
+    {
+      "utterance": "can you see where my reimbursement is?",
+      "true": "track_refund",
+      "pred": "check_refund_policy",
+      "logp": -1.0
+    },
+    {
+      "utterance": "my refund is taking forever; has it left your side?",
+      "true": "track_refund",
+      "pred": "complaint",
+      "logp": -0.5
+    },
+    {
+      "utterance": "waiting on my refund for the cancelled booking, any update",
+      "true": "track_refund",
+      "pred": "check_refund_policy",
+      "logp": -0.5
+    },
+    {
+      "utterance": "has the refund for order 3302 gone through",
+      "true": "track_refund",
+      "pred": "check_refund_policy",
+      "logp": -0.75
+    },
+    {
+      "utterance": "refund hasn't arrived, what's going on with it",
+      "true": "track_refund",
+      "pred": "check_refund_policy",
+      "logp": -4.125
+    },
+    {
+      "utterance": "when do I get the refund you confirmed",
+      "true": "track_refund",
+      "pred": "check_refund_policy",
+      "logp": -0.25
+    }
+  ]
+}

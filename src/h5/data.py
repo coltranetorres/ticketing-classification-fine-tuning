@@ -36,6 +36,15 @@ def load_holdout(version: int = 1) -> list[Row]:
         return [Row(utterance=d["utterance"], intent=d["intent"]) for d in map(json.loads, f)]
 
 
+def load_twitter() -> list[Row]:
+    """Real Twitter customer tweets labeled by Claude (clear + borderline; filter by 'confidence' in the file)."""
+    import json
+
+    path = DATA_DIR / "twitter" / "eval_all.jsonl"
+    with open(path, encoding="utf-8") as f:
+        return [Row(utterance=d["utterance"], intent=d["intent"]) for d in map(json.loads, f)]
+
+
 def load_split(name: Literal["train", "val", "test"]) -> list[Row]:
     path = DATA_DIR / _FILES[name]
     if not path.exists():
