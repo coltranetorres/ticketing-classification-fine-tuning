@@ -41,13 +41,17 @@
 Details: [`results/report_ood.md`](results/report_ood.md) (all test sets, intervals, paired tests); [`results/report.md`](results/report.md) (original Bitext-only experiment).
 
 ## Conclusion
-- **Extent: large, but conditional on the training data.** The same Gemma-1B improved from 52.7% to 98.7% on Bitext, from 34.1% to 90.4% on a fresh holdout, and from 50.5% to 88.1% on real tweets (+38 to +56 points).
-- **It can also hurt.** Tuned on Bitext alone, accuracy on real tweets fell to 33.9%, below untuned: the model overfit to the dataset's style. Bitext-only gains are an easy-test result.
-- **Variety, not quantity, drives the improvement.** 3x more Bitext data moved holdout v2 by under 1 point; varied training data moved it +23 (the 1,000 Bitext examples cover only 63% of the holdout's words, vs 97% with augmentation).
-- **Against the larger model:** the tuned SLM beats untuned Gemini on Bitext (99% vs 94%, an easy templated test) but still trails it on real data: about 8 points on the 109 clear tweets (88% vs 96%), about 12 on all 283 (69% vs 81%). Tuning narrowed that gap from 62 points to 8.
-- **Open levers (untried):** a larger base model, real-ticket training data, a confidence router that escalates uncertain tickets, more seeds, a sweep over the number of examples.
-- **Limits:** one training run per setting; only 1,000 and 3,160 examples tried; real-tweet labels are LLM-made with a 50-row spot-check; the real set is small (109), complaint-heavy and covers 23 of 27 intents; Gemini ran with reasoning on; augmentation data comes from Gemini.
-- **Not shown:** cost savings or CPU hosting.
+**Main answer:** fine-tuning improves the SLM a lot (+38 to +56 points over untuned), but only when the training data matches the wording it will see.
+
+1. **How much does fine-tuning improve the SLM?** The same Gemma-1B went from 52.7% to 98.7% on Bitext (+46), from 34.1% to 90.4% on a fresh holdout (+56), and from 50.5% to 88.1% on real tweets (+38).
+2. **Does it carry over to differently-worded and real messages?** Yes with diverse training data (88.1% on real tweets). No with Bitext-only data: accuracy on real tweets fell to 33.9%, below untuned, because the model overfit to the dataset's style. Bitext-only gains are an easy-test result.
+3. **What drives it: quantity or variety?** Variety. 3x more Bitext data moved holdout v2 by under 1 point; varied data moved it +23. The 1,000 Bitext examples cover 63% of the holdout's words, vs 97% with augmentation.
+
+**Against the larger model (yardstick):** the tuned SLM beats untuned Gemini on Bitext (99% vs 94%, an easy templated test) but trails it on real data: about 8 points on the 109 clear tweets (88% vs 96%), about 12 on all 283 (69% vs 81%). Tuning narrowed that gap from 62 points to 8.
+
+**Open levers (untried):** a larger base model, real-ticket training data, a confidence router that escalates uncertain tickets, more seeds, a sweep over the number of examples.
+
+**Limits:** one training run per setting; only 1,000 and 3,160 examples tried; real-tweet labels are LLM-made with a 50-row spot-check; the real set is small (109), complaint-heavy and covers 23 of 27 intents; Gemini ran with reasoning on; augmentation data comes from Gemini. Cost savings and CPU hosting were not tested.
 
 ## Reproduce
 Needs an Apple Silicon Mac (MLX), [uv](https://docs.astral.sh/uv/), `OPENROUTER_API_KEY` in `.env`, `data/archive.zip` (Bitext Sample Customer Service dataset) and, for the tweet test, `data/twitter/twcs/twcs.csv` from Kaggle. Neither dataset is committed. Gemini outputs are not bit-reproducible.
