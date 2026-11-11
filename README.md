@@ -72,4 +72,6 @@ uv run python scripts/run_gemma.py --name tuned --adapter <dir> --split holdout2
 uv run python scripts/run_gemma.py --name tuned --adapter <dir> --split twitter --constrained
 uv run python scripts/run_gemini.py --variant names --dataset twitter
 ```
+Committed results for Bitext splits omit the message text (`scripts/strip_bitext_text.py`); rerunning the scripts writes it locally, so run that script before committing results.
+
 Each adapter dir needs `adapter_config.json` + the chosen checkpoint copied as `adapters.safetensors`. Tweet labels (`data/twitter/labels_claude.jsonl`, `eval_all.jsonl`) are not in the repo.
