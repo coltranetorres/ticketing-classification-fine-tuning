@@ -24,6 +24,18 @@ class Row(TypedDict):
     intent: str
 
 
+HOLDOUT_PATH = DATA_DIR / "holdout" / "synthetic_holdout.jsonl"
+
+
+def load_holdout(version: int = 1) -> list[Row]:
+    """Hand-written out-of-distribution sets (scripts/build_synthetic_holdout*.py). v1 = dev, v2 = fresh test."""
+    import json
+
+    path = HOLDOUT_PATH if version == 1 else HOLDOUT_PATH.with_name(f"synthetic_holdout_v{version}.jsonl")
+    with open(path, encoding="utf-8") as f:
+        return [Row(utterance=d["utterance"], intent=d["intent"]) for d in map(json.loads, f)]
+
+
 def load_split(name: Literal["train", "val", "test"]) -> list[Row]:
     path = DATA_DIR / _FILES[name]
     if not path.exists():

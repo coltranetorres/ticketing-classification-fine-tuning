@@ -1,0 +1,1361 @@
+{
+  "metrics": {
+    "accuracy": 0.9814814814814815,
+    "macro_f1": 0.9812763255427889,
+    "confusable_accuracy": 0.9625,
+    "unparseable": 0,
+    "n": 270
+  },
+  "predictions": [
+    {
+      "utterance": "ok so i ordered a pair of boots yesterday evening and honestly i changed my mind, can you just kill the order before it goes out?",
+      "true": "cancel_order",
+      "pred": "cancel_order"
+    },
+    {
+      "utterance": "Please cancel order #48213. I found the same item cheaper elsewhere.",
+      "true": "cancel_order",
+      "pred": "cancel_order"
+    },
+    {
+      "utterance": "hey!! need to cancel my purchase asap, ordered the wrong size lol",
+      "true": "cancel_order",
+      "pred": "cancel_order"
+    },
+    {
+      "utterance": "I accidentally placed my order twice. Could you cancel the second one please?",
+      "true": "cancel_order",
+      "pred": "cancel_order"
+    },
+    {
+      "utterance": "i dont want the laptop stand anymore, how do i get my order cancelled",
+      "true": "cancel_order",
+      "pred": "cancel_order"
+    },
+    {
+      "utterance": "Is it still possible to stop my order from shipping? I no longer need it.",
+      "true": "cancel_order",
+      "pred": "cancel_order"
+    },
+    {
+      "utterance": "Cancelling the order i made on friday, thanks",
+      "true": "cancel_order",
+      "pred": "cancel_order"
+    },
+    {
+      "utterance": "my husband ordered a blender without telling me and we really don't need it. please cancel that order before it ships",
+      "true": "cancel_order",
+      "pred": "cancel_order"
+    },
+    {
+      "utterance": "I'd like to withdraw my order, there was a mistake with the delivery date I picked.",
+      "true": "cancel_order",
+      "pred": "cancel_order"
+    },
+    {
+      "utterance": "need to cancel my order. changed plans, going away for the month",
+      "true": "cancel_order",
+      "pred": "cancel_order"
+    },
+    {
+      "utterance": "I just ordered a medium hoodie but I need a large, can you swap it before it ships?",
+      "true": "change_order",
+      "pred": "change_order"
+    },
+    {
+      "utterance": "Can I add another item to the order I placed this morning?",
+      "true": "change_order",
+      "pred": "change_order"
+    },
+    {
+      "utterance": "hi i need to change the colour on my order from black to navy",
+      "true": "change_order",
+      "pred": "change_order"
+    },
+    {
+      "utterance": "Please modify my order, I want 3 of the mugs instead of 2.",
+      "true": "change_order",
+      "pred": "change_order"
+    },
+    {
+      "utterance": "i ordered the wrong model of phone case, how do i edit my order",
+      "true": "change_order",
+      "pred": "change_order"
+    },
+    {
+      "utterance": "Is there a way to update the quantity on order 77120 without cancelling it?",
+      "true": "change_order",
+      "pred": "change_order"
+    },
+    {
+      "utterance": "want to remove one of the items from my order but keep the rest",
+      "true": "change_order",
+      "pred": "change_order"
+    },
+    {
+      "utterance": "Can you change the product in my order to the newer version of the same speaker?",
+      "true": "change_order",
+      "pred": "change_order"
+    },
+    {
+      "utterance": "made a mistake picking the size on my order, can it be amended?",
+      "true": "change_order",
+      "pred": "change_order"
+    },
+    {
+      "utterance": "Could you swap the white curtains in my order for the grey ones?",
+      "true": "change_order",
+      "pred": "change_order"
+    },
+    {
+      "utterance": "I moved last week and need my order sent to a new address instead.",
+      "true": "change_shipping_address",
+      "pred": "change_shipping_address"
+    },
+    {
+      "utterance": "Please update the delivery address on my current order, I typed the wrong flat number.",
+      "true": "change_shipping_address",
+      "pred": "change_shipping_address"
+    },
+    {
+      "utterance": "my package is going to my old apartment, can i redirect it to my office?",
+      "true": "change_shipping_address",
+      "pred": "change_shipping_address"
+    },
+    {
+      "utterance": "Hi, I need the order shipped to my mum's house rather than mine. Is that possible?",
+      "true": "change_shipping_address",
+      "pred": "change_shipping_address"
+    },
+    {
+      "utterance": "wrong postcode on my order!! need to fix it before it goes out",
+      "true": "change_shipping_address",
+      "pred": "change_order"
+    },
+    {
+      "utterance": "can u change where my parcel is being delivered to",
+      "true": "change_shipping_address",
+      "pred": "change_shipping_address"
+    },
+    {
+      "utterance": "I'll be away on holiday so I want to send this order to my sister's address instead.",
+      "true": "change_shipping_address",
+      "pred": "change_shipping_address"
+    },
+    {
+      "utterance": "How can I change the shipping address for an order that I already placed?",
+      "true": "change_shipping_address",
+      "pred": "change_shipping_address"
+    },
+    {
+      "utterance": "address on my order is outdated, the new one is 12 Birch Lane, please fix",
+      "true": "change_shipping_address",
+      "pred": "change_shipping_address"
+    },
+    {
+      "utterance": "Need to reroute my delivery to a different street, the one on the order is wrong.",
+      "true": "change_shipping_address",
+      "pred": "change_shipping_address"
+    },
+    {
+      "utterance": "if i cancel my order now will i get charged anything?",
+      "true": "check_cancellation_fee",
+      "pred": "check_cancellation_fee"
+    },
+    {
+      "utterance": "What's the fee for cancelling an order after it's been confirmed?",
+      "true": "check_cancellation_fee",
+      "pred": "check_cancellation_fee"
+    },
+    {
+      "utterance": "do you charge a cancellation fee? asking before i decide",
+      "true": "check_cancellation_fee",
+      "pred": "check_cancellation_fee"
+    },
+    {
+      "utterance": "Before I cancel, can you tell me how much the cancellation penalty is?",
+      "true": "check_cancellation_fee",
+      "pred": "check_cancellation_fee"
+    },
+    {
+      "utterance": "is there a cost to cancelling a subscription box order midway",
+      "true": "check_cancellation_fee",
+      "pred": "check_cancellation_fee"
+    },
+    {
+      "utterance": "wondering whether cancelling after 24 hours costs me anything extra",
+      "true": "check_cancellation_fee",
+      "pred": "check_cancellation_fee"
+    },
+    {
+      "utterance": "Are there any charges if I back out of my purchase?",
+      "true": "check_cancellation_fee",
+      "pred": "check_cancellation_fee"
+    },
+    {
+      "utterance": "what would be the penalty if I cancel my order tomorrow",
+      "true": "check_cancellation_fee",
+      "pred": "check_cancellation_fee"
+    },
+    {
+      "utterance": "i want to know your cancellation charges before i go ahead with the booking",
+      "true": "check_cancellation_fee",
+      "pred": "check_cancellation_fee"
+    },
+    {
+      "utterance": "Is cancelling free or is there a fee involved?",
+      "true": "check_cancellation_fee",
+      "pred": "check_cancellation_fee"
+    },
+    {
+      "utterance": "Can I see the invoice for my last order? I want to check the amounts.",
+      "true": "check_invoice",
+      "pred": "get_invoice"
+    },
+    {
+      "utterance": "where do i look at the bill for order 55102, need to see what i was charged for each item",
+      "true": "check_invoice",
+      "pred": "check_invoice"
+    },
+    {
+      "utterance": "I'd like to review the details on my invoice from March.",
+      "true": "check_invoice",
+      "pred": "check_invoice"
+    },
+    {
+      "utterance": "how do i view the invoice that was issued for my purchase",
+      "true": "check_invoice",
+      "pred": "check_invoice"
+    },
+    {
+      "utterance": "just want to look at the invoice breakdown, taxes and shipping included",
+      "true": "check_invoice",
+      "pred": "get_invoice"
+    },
+    {
+      "utterance": "Could you show me the invoice number and total for my recent order?",
+      "true": "check_invoice",
+      "pred": "check_invoice"
+    },
+    {
+      "utterance": "Is there a place on the site where i can check my invoices?",
+      "true": "check_invoice",
+      "pred": "check_invoice"
+    },
+    {
+      "utterance": "I need to verify the invoice details before I approve the payment.",
+      "true": "check_invoice",
+      "pred": "check_invoice"
+    },
+    {
+      "utterance": "please let me look at my latest invoice",
+      "true": "check_invoice",
+      "pred": "check_invoice"
+    },
+    {
+      "utterance": "where can I find the invoice for the monitor I bought, I want to read through the charges",
+      "true": "check_invoice",
+      "pred": "get_invoice"
+    },
+    {
+      "utterance": "What payment methods do you accept? Do you take PayPal?",
+      "true": "check_payment_methods",
+      "pred": "check_payment_methods"
+    },
+    {
+      "utterance": "can i pay with apple pay or only card",
+      "true": "check_payment_methods",
+      "pred": "check_payment_methods"
+    },
+    {
+      "utterance": "do you accept bank transfers for large orders",
+      "true": "check_payment_methods",
+      "pred": "check_payment_methods"
+    },
+    {
+      "utterance": "Which credit cards can I use at checkout?",
+      "true": "check_payment_methods",
+      "pred": "check_payment_methods"
+    },
+    {
+      "utterance": "is paying on delivery an option",
+      "true": "check_payment_methods",
+      "pred": "check_payment_methods"
+    },
+    {
+      "utterance": "Hi, do you guys take Amex? Want to know before I order.",
+      "true": "check_payment_methods",
+      "pred": "check_payment_methods"
+    },
+    {
+      "utterance": "are there any buy now pay later options available",
+      "true": "check_payment_methods",
+      "pred": "check_payment_methods"
+    },
+    {
+      "utterance": "what ways can I pay for my order, cash? card? gift cards?",
+      "true": "check_payment_methods",
+      "pred": "check_payment_methods"
+    },
+    {
+      "utterance": "Can I split the payment across two cards?",
+      "true": "check_payment_methods",
+      "pred": "check_payment_methods"
+    },
+    {
+      "utterance": "do you support payment by cryptocurrency or only normal methods",
+      "true": "check_payment_methods",
+      "pred": "check_payment_methods"
+    },
+    {
+      "utterance": "What is your refund policy? How long do I have to return something?",
+      "true": "check_refund_policy",
+      "pred": "check_refund_policy"
+    },
+    {
+      "utterance": "can i get my money back if i dont like the product, whats the rule on that",
+      "true": "check_refund_policy",
+      "pred": "check_refund_policy"
+    },
+    {
+      "utterance": "Before buying: are items refundable if opened?",
+      "true": "check_refund_policy",
+      "pred": "check_refund_policy"
+    },
+    {
+      "utterance": "how many days do I have to ask for a refund after delivery",
+      "true": "check_refund_policy",
+      "pred": "check_refund_policy"
+    },
+    {
+      "utterance": "do you offer refunds on sale items?",
+      "true": "check_refund_policy",
+      "pred": "check_refund_policy"
+    },
+    {
+      "utterance": "I'd like to understand your returns and refund conditions.",
+      "true": "check_refund_policy",
+      "pred": "check_refund_policy"
+    },
+    {
+      "utterance": "if something arrives broken do i get a full refund per your policy",
+      "true": "check_refund_policy",
+      "pred": "check_refund_policy"
+    },
+    {
+      "utterance": "whats the policy for refunds on digital downloads",
+      "true": "check_refund_policy",
+      "pred": "check_refund_policy"
+    },
+    {
+      "utterance": "Can you explain how your refund policy works?",
+      "true": "check_refund_policy",
+      "pred": "check_refund_policy"
+    },
+    {
+      "utterance": "are refunds only given as store credit or back to the original card, what's your policy",
+      "true": "check_refund_policy",
+      "pred": "check_refund_policy"
+    },
+    {
+      "utterance": "This is unacceptable. My parcel arrived crushed and nobody has bothered to respond to my emails.",
+      "true": "complaint",
+      "pred": "complaint"
+    },
+    {
+      "utterance": "i want to make a complaint about the way your driver treated me",
+      "true": "complaint",
+      "pred": "complaint"
+    },
+    {
+      "utterance": "I'm really unhappy with the service I received, the item was nothing like the photos.",
+      "true": "complaint",
+      "pred": "complaint"
+    },
+    {
+      "utterance": "terrible experience, waited 3 weeks and got the wrong product. I want to file a formal complaint.",
+      "true": "complaint",
+      "pred": "complaint"
+    },
+    {
+      "utterance": "How do I complain about a rude member of your staff?",
+      "true": "complaint",
+      "pred": "complaint"
+    },
+    {
+      "utterance": "ive been overcharged twice and no one will help, i'd like to lodge a complaint",
+      "true": "complaint",
+      "pred": "complaint"
+    },
+    {
+      "utterance": "I need to report a problem with how my order was handled, it's been a disaster from start to finish.",
+      "true": "complaint",
+      "pred": "complaint"
+    },
+    {
+      "utterance": "your website kept crashing and then charged me. very disappointed and want to complain",
+      "true": "complaint",
+      "pred": "complaint"
+    },
+    {
+      "utterance": "filing a complaint: the product stopped working after two days",
+      "true": "complaint",
+      "pred": "complaint"
+    },
+    {
+      "utterance": "extremely dissatisfied with how your company treated me, where do I send a complaint",
+      "true": "complaint",
+      "pred": "complaint"
+    },
+    {
+      "utterance": "What's the phone number for customer service?",
+      "true": "contact_customer_service",
+      "pred": "contact_customer_service"
+    },
+    {
+      "utterance": "how can i reach your support team",
+      "true": "contact_customer_service",
+      "pred": "contact_customer_service"
+    },
+    {
+      "utterance": "Hi, what are your customer service opening hours?",
+      "true": "contact_customer_service",
+      "pred": "contact_customer_service"
+    },
+    {
+      "utterance": "is there an email address i can use to contact support",
+      "true": "contact_customer_service",
+      "pred": "contact_customer_service"
+    },
+    {
+      "utterance": "where can I find your customer service contact details",
+      "true": "contact_customer_service",
+      "pred": "contact_customer_service"
+    },
+    {
+      "utterance": "need to get in touch with someone from your company, what's the best way",
+      "true": "contact_customer_service",
+      "pred": "contact_customer_service"
+    },
+    {
+      "utterance": "do you have a live chat or a hotline for questions?",
+      "true": "contact_customer_service",
+      "pred": "contact_customer_service"
+    },
+    {
+      "utterance": "Could you give me the address and telephone of your customer care department?",
+      "true": "contact_customer_service",
+      "pred": "contact_customer_service"
+    },
+    {
+      "utterance": "how do i contact customer support on weekends",
+      "true": "contact_customer_service",
+      "pred": "contact_customer_service"
+    },
+    {
+      "utterance": "looking for your support contact info, can't find it on the site",
+      "true": "contact_customer_service",
+      "pred": "contact_customer_service"
+    },
+    {
+      "utterance": "I don't want to talk to a bot, please connect me to a real person.",
+      "true": "contact_human_agent",
+      "pred": "contact_human_agent"
+    },
+    {
+      "utterance": "can i speak with a human agent please",
+      "true": "contact_human_agent",
+      "pred": "contact_human_agent"
+    },
+    {
+      "utterance": "Transfer me to a live representative right now.",
+      "true": "contact_human_agent",
+      "pred": "contact_human_agent"
+    },
+    {
+      "utterance": "this chatbot isnt helping, get me an actual person",
+      "true": "contact_human_agent",
+      "pred": "contact_human_agent"
+    },
+    {
+      "utterance": "I'd like to talk to a human being about my issue.",
+      "true": "contact_human_agent",
+      "pred": "contact_human_agent"
+    },
+    {
+      "utterance": "agent please. real human.",
+      "true": "contact_human_agent",
+      "pred": "contact_human_agent"
+    },
+    {
+      "utterance": "Please put me through to one of your staff, not an automated assistant.",
+      "true": "contact_human_agent",
+      "pred": "contact_human_agent"
+    },
+    {
+      "utterance": "how do i get to a real person instead of this automated system",
+      "true": "contact_human_agent",
+      "pred": "contact_human_agent"
+    },
+    {
+      "utterance": "i need a human to look at my case, the bot keeps giving me the same answer",
+      "true": "contact_human_agent",
+      "pred": "contact_human_agent"
+    },
+    {
+      "utterance": "connect me with a live agent, I'm done with the menu options",
+      "true": "contact_human_agent",
+      "pred": "contact_human_agent"
+    },
+    {
+      "utterance": "How do I sign up for an account on your site?",
+      "true": "create_account",
+      "pred": "create_account"
+    },
+    {
+      "utterance": "i want to make a new account, where do i start",
+      "true": "create_account",
+      "pred": "create_account"
+    },
+    {
+      "utterance": "Can you help me create an account so I can start ordering?",
+      "true": "create_account",
+      "pred": "create_account"
+    },
+    {
+      "utterance": "need to open an account, whats the process",
+      "true": "create_account",
+      "pred": "create_account"
+    },
+    {
+      "utterance": "hi! how can i register as a new customer",
+      "true": "create_account",
+      "pred": "create_account"
+    },
+    {
+      "utterance": "I'd like to set up a profile with you guys, steps please",
+      "true": "create_account",
+      "pred": "create_account"
+    },
+    {
+      "utterance": "where is the button to create an account, i cant see it",
+      "true": "create_account",
+      "pred": "create_account"
+    },
+    {
+      "utterance": "Is it free to make an account? I'd like to open one.",
+      "true": "create_account",
+      "pred": "create_account"
+    },
+    {
+      "utterance": "want to join and make a login for the store",
+      "true": "create_account",
+      "pred": "create_account"
+    },
+    {
+      "utterance": "please walk me through creating a new customer account",
+      "true": "create_account",
+      "pred": "create_account"
+    },
+    {
+      "utterance": "I want my account deleted permanently.",
+      "true": "delete_account",
+      "pred": "delete_account"
+    },
+    {
+      "utterance": "how do i close my account",
+      "true": "delete_account",
+      "pred": "delete_account"
+    },
+    {
+      "utterance": "please remove my profile and all my data from your system",
+      "true": "delete_account",
+      "pred": "delete_account"
+    },
+    {
+      "utterance": "Can you delete the account associated with my email address?",
+      "true": "delete_account",
+      "pred": "delete_account"
+    },
+    {
+      "utterance": "i dont use your service any more, how can i get my account erased",
+      "true": "delete_account",
+      "pred": "delete_account"
+    },
+    {
+      "utterance": "I'd like to terminate my account, what do I need to do?",
+      "true": "delete_account",
+      "pred": "delete_account"
+    },
+    {
+      "utterance": "delete my account pls",
+      "true": "delete_account",
+      "pred": "delete_account"
+    },
+    {
+      "utterance": "Where in settings can I delete my account for good?",
+      "true": "delete_account",
+      "pred": "delete_account"
+    },
+    {
+      "utterance": "I want to deactivate and delete everything linked to my login.",
+      "true": "delete_account",
+      "pred": "delete_account"
+    },
+    {
+      "utterance": "need to shut down my customer account, thanks",
+      "true": "delete_account",
+      "pred": "delete_account"
+    },
+    {
+      "utterance": "What delivery options do you have? Is there express shipping?",
+      "true": "delivery_options",
+      "pred": "delivery_options"
+    },
+    {
+      "utterance": "do you offer next day delivery or standard only",
+      "true": "delivery_options",
+      "pred": "delivery_options"
+    },
+    {
+      "utterance": "Can I pick up my order from a store instead of having it delivered?",
+      "true": "delivery_options",
+      "pred": "delivery_options"
+    },
+    {
+      "utterance": "what are the shipping methods available to my area",
+      "true": "delivery_options",
+      "pred": "delivery_options"
+    },
+    {
+      "utterance": "is there a same-day delivery option",
+      "true": "delivery_options",
+      "pred": "delivery_options"
+    },
+    {
+      "utterance": "Hi, can you tell me which couriers you use and if I can choose one?",
+      "true": "delivery_options",
+      "pred": "delivery_options"
+    },
+    {
+      "utterance": "do you ship internationally and what are the choices",
+      "true": "delivery_options",
+      "pred": "delivery_options"
+    },
+    {
+      "utterance": "are there free shipping choices or only paid?",
+      "true": "delivery_options",
+      "pred": "delivery_options"
+    },
+    {
+      "utterance": "Which delivery services can I select at checkout?",
+      "true": "delivery_options",
+      "pred": "delivery_options"
+    },
+    {
+      "utterance": "can i choose a delivery time slot or collect from a locker",
+      "true": "delivery_options",
+      "pred": "delivery_options"
+    },
+    {
+      "utterance": "How long will delivery take?",
+      "true": "delivery_period",
+      "pred": "delivery_period"
+    },
+    {
+      "utterance": "when will my order arrive roughly, how many days does shipping usually take",
+      "true": "delivery_period",
+      "pred": "delivery_period"
+    },
+    {
+      "utterance": "What's the typical delivery time to Canada?",
+      "true": "delivery_period",
+      "pred": "delivery_period"
+    },
+    {
+      "utterance": "how many working days for standard delivery",
+      "true": "delivery_period",
+      "pred": "delivery_period"
+    },
+    {
+      "utterance": "If I order today, when can I expect it to get here?",
+      "true": "delivery_period",
+      "pred": "delivery_period"
+    },
+    {
+      "utterance": "how long does it take for a parcel to reach me in the uk",
+      "true": "delivery_period",
+      "pred": "delivery_period"
+    },
+    {
+      "utterance": "Do you know the estimated delivery period for bulky items?",
+      "true": "delivery_period",
+      "pred": "delivery_period"
+    },
+    {
+      "utterance": "wanna know the delivery timeframe before i buy",
+      "true": "delivery_period",
+      "pred": "delivery_period"
+    },
+    {
+      "utterance": "how fast is your shipping, need it by next friday",
+      "true": "delivery_period",
+      "pred": "delivery_period"
+    },
+    {
+      "utterance": "What is the usual lead time between ordering and receiving?",
+      "true": "delivery_period",
+      "pred": "delivery_period"
+    },
+    {
+      "utterance": "I need to update my phone number on my account.",
+      "true": "edit_account",
+      "pred": "edit_account"
+    },
+    {
+      "utterance": "how do i change the email address linked to my profile",
+      "true": "edit_account",
+      "pred": "edit_account"
+    },
+    {
+      "utterance": "Can I edit my name on the account? There's a typo.",
+      "true": "edit_account",
+      "pred": "edit_account"
+    },
+    {
+      "utterance": "want to update my billing details in my account settings",
+      "true": "edit_account",
+      "pred": "edit_account"
+    },
+    {
+      "utterance": "my account still shows my old surname, how do i change it",
+      "true": "edit_account",
+      "pred": "edit_account"
+    },
+    {
+      "utterance": "Where can I modify my profile information?",
+      "true": "edit_account",
+      "pred": "edit_account"
+    },
+    {
+      "utterance": "please change the contact email on my account to the new one i gave you",
+      "true": "edit_account",
+      "pred": "edit_account"
+    },
+    {
+      "utterance": "I'd like to edit my saved details, date of birth is wrong",
+      "true": "edit_account",
+      "pred": "edit_account"
+    },
+    {
+      "utterance": "how can i amend my account info",
+      "true": "edit_account",
+      "pred": "edit_account"
+    },
+    {
+      "utterance": "need to correct the spelling of my username and display name on my account",
+      "true": "edit_account",
+      "pred": "edit_account"
+    },
+    {
+      "utterance": "Could you email me a PDF copy of the invoice for my order?",
+      "true": "get_invoice",
+      "pred": "get_invoice"
+    },
+    {
+      "utterance": "I need a copy of my invoice for expense reporting, please send it.",
+      "true": "get_invoice",
+      "pred": "get_invoice"
+    },
+    {
+      "utterance": "send me the invoice for order 33871 please",
+      "true": "get_invoice",
+      "pred": "get_invoice"
+    },
+    {
+      "utterance": "can i download the invoice for my purchase? my company needs it",
+      "true": "get_invoice",
+      "pred": "get_invoice"
+    },
+    {
+      "utterance": "Hi, I never got an invoice with my order, please send one over",
+      "true": "get_invoice",
+      "pred": "get_invoice"
+    },
+    {
+      "utterance": "need an invoice sent to my email for tax purposes",
+      "true": "get_invoice",
+      "pred": "get_invoice"
+    },
+    {
+      "utterance": "Please provide a copy of the invoice for the headphones I bought last month.",
+      "true": "get_invoice",
+      "pred": "get_invoice"
+    },
+    {
+      "utterance": "my accountant is asking for the invoice, how do I get it sent to me",
+      "true": "get_invoice",
+      "pred": "get_invoice"
+    },
+    {
+      "utterance": "request: invoice for order placed 14 June, pdf if possible",
+      "true": "get_invoice",
+      "pred": "get_invoice"
+    },
+    {
+      "utterance": "can you resend the invoice, i deleted the email by mistake",
+      "true": "get_invoice",
+      "pred": "get_invoice"
+    },
+    {
+      "utterance": "I want my money back for this faulty blender.",
+      "true": "get_refund",
+      "pred": "get_refund"
+    },
+    {
+      "utterance": "please refund me, the item never arrived",
+      "true": "get_refund",
+      "pred": "get_refund"
+    },
+    {
+      "utterance": "How do I request a refund for an order I returned?",
+      "true": "get_refund",
+      "pred": "get_refund"
+    },
+    {
+      "utterance": "I'd like a refund for the wrong item you sent me.",
+      "true": "get_refund",
+      "pred": "get_refund"
+    },
+    {
+      "utterance": "i need to be refunded for a purchase i didnt authorise",
+      "true": "get_refund",
+      "pred": "get_refund"
+    },
+    {
+      "utterance": "Can I get a refund on my last order? It doesn't fit.",
+      "true": "get_refund",
+      "pred": "get_refund"
+    },
+    {
+      "utterance": "want my payment returned, the product was damaged",
+      "true": "get_refund",
+      "pred": "get_refund"
+    },
+    {
+      "utterance": "I'm requesting a full refund for order 61025.",
+      "true": "get_refund",
+      "pred": "get_refund"
+    },
+    {
+      "utterance": "give me a refund pls, the item is not as described",
+      "true": "get_refund",
+      "pred": "get_refund"
+    },
+    {
+      "utterance": "How can I get reimbursed for the headphones that stopped working?",
+      "true": "get_refund",
+      "pred": "get_refund"
+    },
+    {
+      "utterance": "How do I subscribe to your newsletter?",
+      "true": "newsletter_subscription",
+      "pred": "newsletter_subscription"
+    },
+    {
+      "utterance": "i want to unsubscribe from your marketing emails",
+      "true": "newsletter_subscription",
+      "pred": "newsletter_subscription"
+    },
+    {
+      "utterance": "Please sign me up for your weekly newsletter.",
+      "true": "newsletter_subscription",
+      "pred": "newsletter_subscription"
+    },
+    {
+      "utterance": "stop sending me newsletters, how do I opt out",
+      "true": "newsletter_subscription",
+      "pred": "newsletter_subscription"
+    },
+    {
+      "utterance": "can i get on the mailing list for promotions",
+      "true": "newsletter_subscription",
+      "pred": "newsletter_subscription"
+    },
+    {
+      "utterance": "I'd like to manage my newsletter subscription.",
+      "true": "newsletter_subscription",
+      "pred": "newsletter_subscription"
+    },
+    {
+      "utterance": "where do i sign up for email updates about your deals",
+      "true": "newsletter_subscription",
+      "pred": "newsletter_subscription"
+    },
+    {
+      "utterance": "Unsubscribe me from the newsletter please",
+      "true": "newsletter_subscription",
+      "pred": "newsletter_subscription"
+    },
+    {
+      "utterance": "how can i stop getting your promo emails",
+      "true": "newsletter_subscription",
+      "pred": "newsletter_subscription"
+    },
+    {
+      "utterance": "add my email to your newsletter list",
+      "true": "newsletter_subscription",
+      "pred": "newsletter_subscription"
+    },
+    {
+      "utterance": "My card was declined at checkout but the money left my account.",
+      "true": "payment_issue",
+      "pred": "payment_issue"
+    },
+    {
+      "utterance": "I was charged twice for the same order.",
+      "true": "payment_issue",
+      "pred": "payment_issue"
+    },
+    {
+      "utterance": "payment keeps failing even though my card is fine",
+      "true": "payment_issue",
+      "pred": "payment_issue"
+    },
+    {
+      "utterance": "There is a payment problem, it says transaction error but my bank shows a charge.",
+      "true": "payment_issue",
+      "pred": "payment_issue"
+    },
+    {
+      "utterance": "i got billed but my order never went through",
+      "true": "payment_issue",
+      "pred": "payment_issue"
+    },
+    {
+      "utterance": "My payment didn't go through, what should I do?",
+      "true": "payment_issue",
+      "pred": "payment_issue"
+    },
+    {
+      "utterance": "the checkout rejects my paypal every time",
+      "true": "payment_issue",
+      "pred": "payment_issue"
+    },
+    {
+      "utterance": "I was charged more than the price shown on the site.",
+      "true": "payment_issue",
+      "pred": "check_invoice"
+    },
+    {
+      "utterance": "payment pending for 3 days and the order is not confirmed",
+      "true": "payment_issue",
+      "pred": "payment_issue"
+    },
+    {
+      "utterance": "something is wrong with my payment, it took the money but says unpaid",
+      "true": "payment_issue",
+      "pred": "payment_issue"
+    },
+    {
+      "utterance": "I'd like to order the blue running shoes, size 9.",
+      "true": "place_order",
+      "pred": "place_order"
+    },
+    {
+      "utterance": "how do i place an order for 5 of these",
+      "true": "place_order",
+      "pred": "place_order"
+    },
+    {
+      "utterance": "Can I buy this item over the phone, I want to place an order.",
+      "true": "place_order",
+      "pred": "place_order"
+    },
+    {
+      "utterance": "want to purchase the desk lamp, where do i check out",
+      "true": "place_order",
+      "pred": "place_order"
+    },
+    {
+      "utterance": "help me order the coffee machine from the website, i dont know how to do it",
+      "true": "place_order",
+      "pred": "place_order"
+    },
+    {
+      "utterance": "ready to buy, what do i do to complete my order",
+      "true": "place_order",
+      "pred": "place_order"
+    },
+    {
+      "utterance": "I want to place an order for a bulk purchase of 50 notebooks.",
+      "true": "place_order",
+      "pred": "place_order"
+    },
+    {
+      "utterance": "i need to order a replacement charger, how can i do it",
+      "true": "place_order",
+      "pred": "place_order"
+    },
+    {
+      "utterance": "Please help me buy the winter jacket in my cart.",
+      "true": "place_order",
+      "pred": "place_order"
+    },
+    {
+      "utterance": "how do I order something if I don't have the app",
+      "true": "place_order",
+      "pred": "place_order"
+    },
+    {
+      "utterance": "I forgot my password, how do I get back into my account?",
+      "true": "recover_password",
+      "pred": "recover_password"
+    },
+    {
+      "utterance": "cant log in, need to reset my password",
+      "true": "recover_password",
+      "pred": "recover_password"
+    },
+    {
+      "utterance": "Please help me recover my password, the reset email never arrives.",
+      "true": "recover_password",
+      "pred": "recover_password"
+    },
+    {
+      "utterance": "lost my password again lol how do i reset it",
+      "true": "recover_password",
+      "pred": "recover_password"
+    },
+    {
+      "utterance": "how can I retrieve my password",
+      "true": "recover_password",
+      "pred": "recover_password"
+    },
+    {
+      "utterance": "I'm locked out because I can't remember my login password.",
+      "true": "recover_password",
+      "pred": "recover_password"
+    },
+    {
+      "utterance": "send me a password reset link please",
+      "true": "recover_password",
+      "pred": "recover_password"
+    },
+    {
+      "utterance": "Where's the forgot password option?",
+      "true": "recover_password",
+      "pred": "recover_password"
+    },
+    {
+      "utterance": "my password isn't working and i want to create a new one",
+      "true": "recover_password",
+      "pred": "recover_password"
+    },
+    {
+      "utterance": "need help getting back into my account, I don't remember the password",
+      "true": "recover_password",
+      "pred": "recover_password"
+    },
+    {
+      "utterance": "I keep trying to register but the sign-up form says error every time.",
+      "true": "registration_problems",
+      "pred": "registration_problems"
+    },
+    {
+      "utterance": "can't complete registration, the confirmation email never shows up",
+      "true": "registration_problems",
+      "pred": "registration_problems"
+    },
+    {
+      "utterance": "Your site won't let me register, it says my email is already in use but I've never signed up.",
+      "true": "registration_problems",
+      "pred": "registration_problems"
+    },
+    {
+      "utterance": "registration page freezes when i press submit",
+      "true": "registration_problems",
+      "pred": "registration_problems"
+    },
+    {
+      "utterance": "I'm having trouble registering an account, the verification code doesn't work.",
+      "true": "registration_problems",
+      "pred": "registration_problems"
+    },
+    {
+      "utterance": "tried signing up three times and it keeps failing, whats wrong",
+      "true": "registration_problems",
+      "pred": "registration_problems"
+    },
+    {
+      "utterance": "Why can't I finish creating my account? The button does nothing.",
+      "true": "registration_problems",
+      "pred": "registration_problems"
+    },
+    {
+      "utterance": "the signup process is stuck on step 2 for me",
+      "true": "registration_problems",
+      "pred": "registration_problems"
+    },
+    {
+      "utterance": "getting an error when I try to register with my phone number",
+      "true": "registration_problems",
+      "pred": "registration_problems"
+    },
+    {
+      "utterance": "i cant register!! it says invalid details but everything is correct",
+      "true": "registration_problems",
+      "pred": "registration_problems"
+    },
+    {
+      "utterance": "I'd like to leave a review for the headphones I bought.",
+      "true": "review",
+      "pred": "review"
+    },
+    {
+      "utterance": "where can I write feedback about my purchase",
+      "true": "review",
+      "pred": "review"
+    },
+    {
+      "utterance": "How do I post a review of your service?",
+      "true": "review",
+      "pred": "review"
+    },
+    {
+      "utterance": "wanna rate my order, 5 stars, how do I do that",
+      "true": "review",
+      "pred": "review"
+    },
+    {
+      "utterance": "I want to share my opinion about the product I received, where do I do that?",
+      "true": "review",
+      "pred": "review"
+    },
+    {
+      "utterance": "can i submit a review on the website",
+      "true": "review",
+      "pred": "review"
+    },
+    {
+      "utterance": "how to leave a rating for the seller?",
+      "true": "review",
+      "pred": "review"
+    },
+    {
+      "utterance": "Is there a way to write a product review without logging in?",
+      "true": "review",
+      "pred": "review"
+    },
+    {
+      "utterance": "love the new vacuum and want to tell others, where do i review it",
+      "true": "review",
+      "pred": "review"
+    },
+    {
+      "utterance": "Where do I add comments and a star rating for my last order?",
+      "true": "review",
+      "pred": "review"
+    },
+    {
+      "utterance": "How do I add a shipping address to my account?",
+      "true": "set_up_shipping_address",
+      "pred": "set_up_shipping_address"
+    },
+    {
+      "utterance": "i havent saved a delivery address yet, where do i set it up",
+      "true": "set_up_shipping_address",
+      "pred": "set_up_shipping_address"
+    },
+    {
+      "utterance": "Can I save my home address so checkout is faster?",
+      "true": "set_up_shipping_address",
+      "pred": "set_up_shipping_address"
+    },
+    {
+      "utterance": "need to enter an address for deliveries, where",
+      "true": "set_up_shipping_address",
+      "pred": "set_up_shipping_address"
+    },
+    {
+      "utterance": "how to register a shipping address for my first order",
+      "true": "set_up_shipping_address",
+      "pred": "set_up_shipping_address"
+    },
+    {
+      "utterance": "Where do I put in the address I want parcels sent to?",
+      "true": "set_up_shipping_address",
+      "pred": "set_up_shipping_address"
+    },
+    {
+      "utterance": "I want to add a second delivery address for my office.",
+      "true": "set_up_shipping_address",
+      "pred": "set_up_shipping_address"
+    },
+    {
+      "utterance": "set up a default shipping address for me please",
+      "true": "set_up_shipping_address",
+      "pred": "set_up_shipping_address"
+    },
+    {
+      "utterance": "where in my profile can i add a new address book entry for shipping",
+      "true": "set_up_shipping_address",
+      "pred": "set_up_shipping_address"
+    },
+    {
+      "utterance": "my account has no shipping address, how can i add one",
+      "true": "set_up_shipping_address",
+      "pred": "set_up_shipping_address"
+    },
+    {
+      "utterance": "I have two accounts and want to switch to the other one.",
+      "true": "switch_account",
+      "pred": "switch_account"
+    },
+    {
+      "utterance": "how do i change to my business account",
+      "true": "switch_account",
+      "pred": "switch_account"
+    },
+    {
+      "utterance": "Can I log out of this account and log into a different one?",
+      "true": "switch_account",
+      "pred": "switch_account"
+    },
+    {
+      "utterance": "want to move to my other profile, how",
+      "true": "switch_account",
+      "pred": "switch_account"
+    },
+    {
+      "utterance": "How do I swap between my personal and work accounts?",
+      "true": "switch_account",
+      "pred": "switch_account"
+    },
+    {
+      "utterance": "i need to switch accounts on the app",
+      "true": "switch_account",
+      "pred": "switch_account"
+    },
+    {
+      "utterance": "is it possible to change which account is active, I have two emails registered",
+      "true": "switch_account",
+      "pred": "switch_account"
+    },
+    {
+      "utterance": "Please tell me how to sign in with a different account.",
+      "true": "switch_account",
+      "pred": "switch_account"
+    },
+    {
+      "utterance": "switching to my second account, steps?",
+      "true": "switch_account",
+      "pred": "switch_account"
+    },
+    {
+      "utterance": "how can i use my other account instead of this one",
+      "true": "switch_account",
+      "pred": "switch_account"
+    },
+    {
+      "utterance": "Where is my order? It was supposed to be here yesterday.",
+      "true": "track_order",
+      "pred": "track_order"
+    },
+    {
+      "utterance": "can you tell me the status of order 90412",
+      "true": "track_order",
+      "pred": "track_order"
+    },
+    {
+      "utterance": "I want to track my package, here's the tracking number.",
+      "true": "track_order",
+      "pred": "track_order"
+    },
+    {
+      "utterance": "has my order shipped yet? no updates since monday",
+      "true": "track_order",
+      "pred": "track_order"
+    },
+    {
+      "utterance": "how can i see where my parcel is right now",
+      "true": "track_order",
+      "pred": "track_order"
+    },
+    {
+      "utterance": "Hi, any news on my delivery? I ordered 5 days ago.",
+      "true": "track_order",
+      "pred": "track_order"
+    },
+    {
+      "utterance": "track my order pls",
+      "true": "track_order",
+      "pred": "track_order"
+    },
+    {
+      "utterance": "where's my stuff, the tracking page hasn't changed in days",
+      "true": "track_order",
+      "pred": "track_order"
+    },
+    {
+      "utterance": "Could you check the current location of my shipment?",
+      "true": "track_order",
+      "pred": "track_order"
+    },
+    {
+      "utterance": "need an update on my order status",
+      "true": "track_order",
+      "pred": "track_order"
+    },
+    {
+      "utterance": "I returned my order two weeks ago and still no refund, what's the status?",
+      "true": "track_refund",
+      "pred": "track_refund"
+    },
+    {
+      "utterance": "has my refund been processed yet",
+      "true": "track_refund",
+      "pred": "track_refund"
+    },
+    {
+      "utterance": "Can you tell me when I'll receive my refund?",
+      "true": "track_refund",
+      "pred": "track_refund"
+    },
+    {
+      "utterance": "where is my money? you said the refund was approved on the 3rd",
+      "true": "track_refund",
+      "pred": "track_refund"
+    },
+    {
+      "utterance": "how can i find out where my refund is at right now?",
+      "true": "track_refund",
+      "pred": "track_refund"
+    },
+    {
+      "utterance": "refund still hasnt shown up on my card, is it on its way?",
+      "true": "track_refund",
+      "pred": "track_refund"
+    },
+    {
+      "utterance": "I'd like an update on the refund for my cancelled order.",
+      "true": "track_refund",
+      "pred": "track_refund"
+    },
+    {
+      "utterance": "tracking my refund, it said processing a week ago",
+      "true": "track_refund",
+      "pred": "track_refund"
+    },
+    {
+      "utterance": "when will the refund hit my account? I've been waiting for ten days",
+      "true": "track_refund",
+      "pred": "track_refund"
+    },
+    {
+      "utterance": "status of my refund request please",
+      "true": "track_refund",
+      "pred": "track_refund"
+    }
+  ]
+}

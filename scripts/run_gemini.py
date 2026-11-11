@@ -9,7 +9,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from h5.data import LABELS, load_split
+from h5.data import LABELS, load_holdout, load_split
 from h5.gemini import classify
 from h5.metrics import score
 from h5.prompts import LABEL_DEFINITIONS
@@ -21,15 +21,17 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--variant", choices=["names", "definitions"], required=True)
     ap.add_argument("--limit", type=int, default=None)
+    ap.add_argument("--dataset", choices=["test", "holdout"], default="test")
     args = ap.parse_args()
+    tag = "" if args.dataset == "test" else "_holdout"
     load_dotenv()
     client = OpenAI(base_url="https://openrouter.ai/api/v1", api_key=os.environ["OPENROUTER_API_KEY"])
     defs = LABEL_DEFINITIONS if args.variant == "definitions" else None
-    rows = load_split("test")
+    rows = load_holdout() if args.dataset == "holdout" else load_split("test")
     if args.limit:
         rows = rows[: args.limit]
     RESULTS.mkdir(exist_ok=True)
-    cache_path = RESULTS / f"cache_gemini_{args.variant}.jsonl"
+    cache_path = RESULTS / f"cache_gemini_{args.variant}{tag}.jsonl"
     cache = {}
     if cache_path.exists():
         for line in cache_path.read_text().splitlines():
@@ -55,7 +57,7 @@ def main():
     metrics = score(trues, preds, LABELS)
     out = {"metrics": metrics,
            "predictions": [{"utterance": r["utterance"], "true": r["intent"], "pred": p} for r, p in zip(rows, preds)]}
-    (RESULTS / f"gemini_{args.variant}.json").write_text(json.dumps(out, indent=2))
+    (RESULTS / f"gemini_{args.variant}{tag}.json").write_text(json.dumps(out, indent=2))
     print(args.variant, metrics)
 
 

@@ -1,0 +1,270 @@
+{"utterance": "so my sister just told me she's covering the gift, so the thing i bought for her birthday is no longer needed. can it be stopped before it leaves your warehouse?", "intent": "cancel_order"}
+{"utterance": "Ordered on impulse at 2am, regretting it now. Order #55-8821. Undo it please.", "intent": "cancel_order"}
+{"utterance": "we're no longer moving in march so the furniture order is pointless, how do i get that order called off", "intent": "cancel_order"}
+{"utterance": "hi, ive just realised ive ordered the same coat twice under two different emails, please scrap one of them", "intent": "cancel_order"}
+{"utterance": "Can you pull my order from fulfilment? Payday got delayed and I can't afford it right now.", "intent": "cancel_order"}
+{"utterance": "my order confirmation just came through but i dont want it anymore, is it too late to back out?", "intent": "cancel_order"}
+{"utterance": "Please void the purchase I made this afternoon.", "intent": "cancel_order"}
+{"utterance": "decided to buy locally instead, whats the quickest way to drop my online order", "intent": "cancel_order"}
+{"utterance": "Husband says we need to return the whole order anyway, so let's not even ship it. Cancel?", "intent": "cancel_order"}
+{"utterance": "pls dont send my order, ordered by mistake", "intent": "cancel_order"}
+{"utterance": "just spotted that I chose the 500ml bottle but wanted the 750ml, can that be sorted on the order before dispatch?", "intent": "change_order"}
+{"utterance": "Is it too late to throw another pair of socks into the same order?", "intent": "change_order"}
+{"utterance": "ordered 2 but my friends want some too, can you make it 5 on the same order", "intent": "change_order"}
+{"utterance": "i picked the wrong colour at checkout, red instead of green, the order hasnt shipped yet", "intent": "change_order"}
+{"utterance": "Can the engraving text on my order be altered? I misspelled the name.", "intent": "change_order"}
+{"utterance": "need the order switched from the 64gb to the 128gb version if its still possible", "intent": "change_order"}
+{"utterance": "I want to drop the gift wrap from my order and add a card instead.", "intent": "change_order"}
+{"utterance": "swap the left-handed version for the right-handed one in my order #20344", "intent": "change_order"}
+{"utterance": "can u tweak whats in my order, took the wrong style", "intent": "change_order"}
+{"utterance": "we ordered a double bed frame but need king size, can the order be updated", "intent": "change_order"}
+{"utterance": "ugh just realised the parcel is heading to my ex's place. need it going to my new flat instead", "intent": "change_shipping_address"}
+{"utterance": "Moving house on Friday, can the delivery for my open order go to the new address?", "intent": "change_shipping_address"}
+{"utterance": "the courier address on my order has the wrong street number", "intent": "change_shipping_address"}
+{"utterance": "I'm at my parents' for the holidays so could you deliver this one there instead", "intent": "change_shipping_address"}
+{"utterance": "my building has a new postcode now, order #8812 needs the corrected delivery details", "intent": "change_shipping_address"}
+{"utterance": "send it to my work address not home pls, order from last night", "intent": "change_shipping_address"}
+{"utterance": "hello, I mistyped the city when ordering. Delivery should go to Leeds, not Lees.", "intent": "change_shipping_address"}
+{"utterance": "my neighbour will accept the parcel, can the order's address be switched to theirs", "intent": "change_shipping_address"}
+{"utterance": "i gave you my billing address as the delivery one by accident, the parcel should go somewhere else", "intent": "change_shipping_address"}
+{"utterance": "need to redirect an order thats not shipped yet to another house", "intent": "change_shipping_address"}
+{"utterance": "if I change my mind after the order is confirmed, does that cost me?", "intent": "check_cancellation_fee"}
+{"utterance": "just curious whether backing out of a purchase carries any kind of charge", "intent": "check_cancellation_fee"}
+{"utterance": "my plans might change next week; will I be penalised for cancelling then?", "intent": "check_cancellation_fee"}
+{"utterance": "Is there a restocking or admin charge if I cancel before it ships?", "intent": "check_cancellation_fee"}
+{"utterance": "what happens money-wise if i call off the order later", "intent": "check_cancellation_fee"}
+{"utterance": "do I lose my deposit if I cancel the booking?", "intent": "check_cancellation_fee"}
+{"utterance": "I want to know if there are costs attached to cancelling before I commit to buying.", "intent": "check_cancellation_fee"}
+{"utterance": "any penalty for cancelling within the first 48 hours?", "intent": "check_cancellation_fee"}
+{"utterance": "would I be charged for pulling out of my order after payment", "intent": "check_cancellation_fee"}
+{"utterance": "Before I order: how much do you take if someone cancels?", "intent": "check_cancellation_fee"}
+{"utterance": "I need to read the line items on the bill for my January purchase, where do I find it?", "intent": "check_invoice"}
+{"utterance": "can I get to the page showing the invoice with the vat breakdown for order 7710", "intent": "check_invoice"}
+{"utterance": "just trying to find where my invoices live in my account so I can look at them", "intent": "check_invoice"}
+{"utterance": "show me the invoice amounts for the last three orders, not sending anywhere, just want to look", "intent": "check_invoice"}
+{"utterance": "the total on my invoice seems high and I want to go through it, where can I view it?", "intent": "check_invoice"}
+{"utterance": "Where's the invoice section? I want to double check what shipping I was billed.", "intent": "check_invoice"}
+{"utterance": "how do I open the invoice for something I paid yesterday", "intent": "check_invoice"}
+{"utterance": "I'd like to inspect my invoice details online", "intent": "check_invoice"}
+{"utterance": "is the invoice for my recent order visible somewhere in my account", "intent": "check_invoice"}
+{"utterance": "want to see what's written on the invoice for my order", "intent": "check_invoice"}
+{"utterance": "I don't own a credit card, is there any other way to pay?", "intent": "check_payment_methods"}
+{"utterance": "wondering if I can use my debit card, or Google Pay, when I check out", "intent": "check_payment_methods"}
+{"utterance": "can I settle up with a voucher plus a card", "intent": "check_payment_methods"}
+{"utterance": "What are my options for paying? Only cards?", "intent": "check_payment_methods"}
+{"utterance": "do you take direct debit?", "intent": "check_payment_methods"}
+{"utterance": "I'd rather not use a card online, do you have alternatives like bank transfer or cash on delivery", "intent": "check_payment_methods"}
+{"utterance": "Does your shop work with Klarna or similar?", "intent": "check_payment_methods"}
+{"utterance": "can i use store credit together with paypal", "intent": "check_payment_methods"}
+{"utterance": "which forms of payment are accepted for international orders?", "intent": "check_payment_methods"}
+{"utterance": "is it possible to pay in instalments", "intent": "check_payment_methods"}
+{"utterance": "thinking of buying but nervous, if it's wrong for me can I send it back for my money?", "intent": "check_refund_policy"}
+{"utterance": "what are the terms if I want to return an item and get reimbursed", "intent": "check_refund_policy"}
+{"utterance": "within what window can I return a purchase and be paid back", "intent": "check_refund_policy"}
+{"utterance": "Do you give money back for used items?", "intent": "check_refund_policy"}
+{"utterance": "Is there a time limit on returns for a full refund?", "intent": "check_refund_policy"}
+{"utterance": "if the product arrives faulty, what do you do about refunds in general", "intent": "check_refund_policy"}
+{"utterance": "what's your stance on refunding opened packaging", "intent": "check_refund_policy"}
+{"utterance": "Can you tell me what your return and money-back rules are?", "intent": "check_refund_policy"}
+{"utterance": "are shipping costs refunded too under your policy", "intent": "check_refund_policy"}
+{"utterance": "how does money-back work with you guys, any conditions?", "intent": "check_refund_policy"}
+{"utterance": "Honestly I'm fed up. This is the third time my order has turned up late and the support chat just reads out scripts.", "intent": "complaint"}
+{"utterance": "I want to put on record how badly this was handled.", "intent": "complaint"}
+{"utterance": "The delivery guy threw my parcel over the fence and it's smashed. Not okay. Who do I talk to about this?", "intent": "complaint"}
+{"utterance": "i paid for premium and the thing is cheap plastic. very disappointed, want this raised formally", "intent": "complaint"}
+{"utterance": "i have been ignored for two weeks and i am angry", "intent": "complaint"}
+{"utterance": "your staff were rude to my mother on the phone. I'm writing to complain.", "intent": "complaint"}
+{"utterance": "Awful. Just awful. The item was used and dirty when it arrived.", "intent": "complaint"}
+{"utterance": "I'd like to submit a grievance about my last experience with your company.", "intent": "complaint"}
+{"utterance": "so disappointed with the quality, nothing like advertised. This needs to be escalated as a complaint", "intent": "complaint"}
+{"utterance": "worst service i've had in years, i want someone to hear this", "intent": "complaint"}
+{"utterance": "Hey, is there a number I can ring if I have questions?", "intent": "contact_customer_service"}
+{"utterance": "who do i speak to about general questions, and when are they open", "intent": "contact_customer_service"}
+{"utterance": "need your helpline details please", "intent": "contact_customer_service"}
+{"utterance": "Is there a support email or form? I couldn't spot one anywhere.", "intent": "contact_customer_service"}
+{"utterance": "what's the best channel to get hold of your team, phone, chat or mail?", "intent": "contact_customer_service"}
+{"utterance": "can you point me to the contact page for support", "intent": "contact_customer_service"}
+{"utterance": "how do I get in touch with you guys outside business hours", "intent": "contact_customer_service"}
+{"utterance": "do you have a customer service line that's free to call", "intent": "contact_customer_service"}
+{"utterance": "Looking for the postal address of your service centre.", "intent": "contact_customer_service"}
+{"utterance": "how can i message your support", "intent": "contact_customer_service"}
+{"utterance": "i keep getting automated replies, i really need a person on this", "intent": "contact_human_agent"}
+{"utterance": "Can someone actually pick this up? Not a bot please.", "intent": "contact_human_agent"}
+{"utterance": "put me through to staff", "intent": "contact_human_agent"}
+{"utterance": "Is there a way to chat with a real employee rather than the assistant?", "intent": "contact_human_agent"}
+{"utterance": "I'd prefer to explain my situation to a living, breathing agent", "intent": "contact_human_agent"}
+{"utterance": "escalate me to a person, the automated help is useless", "intent": "contact_human_agent"}
+{"utterance": "operator please", "intent": "contact_human_agent"}
+{"utterance": "could a team member call me instead of this auto-responder", "intent": "contact_human_agent"}
+{"utterance": "talk to someone real. now.", "intent": "contact_human_agent"}
+{"utterance": "human help required, the virtual assistant does not understand my problem", "intent": "contact_human_agent"}
+{"utterance": "I'm new here and would like to start shopping with a login, where do I begin?", "intent": "create_account"}
+{"utterance": "can I register an account with my email, I haven't got one yet", "intent": "create_account"}
+{"utterance": "how do new customers get an account on this site?", "intent": "create_account"}
+{"utterance": "want to open a profile to save my stuff for later", "intent": "create_account"}
+{"utterance": "Show me how to join, please.", "intent": "create_account"}
+{"utterance": "what do I need to provide to make an account with you", "intent": "create_account"}
+{"utterance": "how to sign up", "intent": "create_account"}
+{"utterance": "hi, I want an account so I can track my purchases in future", "intent": "create_account"}
+{"utterance": "I'd like to become a member, how do I enrol", "intent": "create_account"}
+{"utterance": "How do I get myself set up as a customer in your system", "intent": "create_account"}
+{"utterance": "I'm leaving your platform and want all my personal info gone, how do I do that?", "intent": "delete_account"}
+{"utterance": "can i have my account removed, im not using it anymore", "intent": "delete_account"}
+{"utterance": "how do I wipe my profile entirely", "intent": "delete_account"}
+{"utterance": "Please erase my account and data, GDPR request.", "intent": "delete_account"}
+{"utterance": "I want out. Remove me from your system.", "intent": "delete_account"}
+{"utterance": "Where do I go to permanently close my membership?", "intent": "delete_account"}
+{"utterance": "got a new job, no longer need this account, please shut it", "intent": "delete_account"}
+{"utterance": "Could you take my details off your servers and close the account?", "intent": "delete_account"}
+{"utterance": "how can i unregister completely from your site", "intent": "delete_account"}
+{"utterance": "end my account, thanks", "intent": "delete_account"}
+{"utterance": "can I have it delivered to a pickup point or only to my door?", "intent": "delivery_options"}
+{"utterance": "any faster shipping choices if I pay extra?", "intent": "delivery_options"}
+{"utterance": "what ways of receiving my order are on offer", "intent": "delivery_options"}
+{"utterance": "do you deliver on weekends or evenings?", "intent": "delivery_options"}
+{"utterance": "are there eco-friendly or slower-but-cheaper shipping alternatives", "intent": "delivery_options"}
+{"utterance": "Which carriers do you ship with, and can I pick between them?", "intent": "delivery_options"}
+{"utterance": "Is click and collect a thing with you?", "intent": "delivery_options"}
+{"utterance": "options for getting a big item delivered to me?", "intent": "delivery_options"}
+{"utterance": "Do you have 2-day shipping available for my area?", "intent": "delivery_options"}
+{"utterance": "what kinds of shipping can I choose when buying", "intent": "delivery_options"}
+{"utterance": "I need to know if it will get to me before Christmas if I order tonight", "intent": "delivery_period"}
+{"utterance": "roughly how many days from clicking buy to getting the parcel?", "intent": "delivery_period"}
+{"utterance": "how soon will it be with me", "intent": "delivery_period"}
+{"utterance": "what's the lead time for delivery in Scotland", "intent": "delivery_period"}
+{"utterance": "will a standard delivery order land within a week?", "intent": "delivery_period"}
+{"utterance": "do orders usually take days or weeks to arrive?", "intent": "delivery_period"}
+{"utterance": "Is delivery to Ireland quick or does it take ages?", "intent": "delivery_period"}
+{"utterance": "How many days does express usually take?", "intent": "delivery_period"}
+{"utterance": "what timeframe should I expect for shipping to Australia", "intent": "delivery_period"}
+{"utterance": "when would an order made on Monday normally turn up", "intent": "delivery_period"}
+{"utterance": "the name on my profile has a typo, where can I fix it", "intent": "edit_account"}
+{"utterance": "need to put a different phone number on my account", "intent": "edit_account"}
+{"utterance": "I got married and want my surname updated on my account", "intent": "edit_account"}
+{"utterance": "how do I update the email my account uses", "intent": "edit_account"}
+{"utterance": "can I change my username?", "intent": "edit_account"}
+{"utterance": "where do I correct my details in my profile", "intent": "edit_account"}
+{"utterance": "my account's saved birthday is wrong, how do I change that", "intent": "edit_account"}
+{"utterance": "update the contact info stored on my account please", "intent": "edit_account"}
+{"utterance": "how to modify my personal info in settings", "intent": "edit_account"}
+{"utterance": "my profile picture and display name need changing", "intent": "edit_account"}
+{"utterance": "my finance team needs the official invoice for the order i made on the 3rd, can you email it over", "intent": "get_invoice"}
+{"utterance": "please generate and send me a vat invoice with our company name on it", "intent": "get_invoice"}
+{"utterance": "i'd like the paperwork (invoice) for my purchase delivered to my inbox", "intent": "get_invoice"}
+{"utterance": "Can I get an invoice in PDF for order 4471? Need it for reimbursement.", "intent": "get_invoice"}
+{"utterance": "never received the tax invoice, kindly send a copy", "intent": "get_invoice"}
+{"utterance": "send invoice pls, thanks", "intent": "get_invoice"}
+{"utterance": "my employer wants proof of purchase, an invoice. could you forward one", "intent": "get_invoice"}
+{"utterance": "I lost the invoice from my last order and need another sent to me.", "intent": "get_invoice"}
+{"utterance": "Could you attach an invoice for my order and send it to my email?", "intent": "get_invoice"}
+{"utterance": "I need a downloadable invoice for customs", "intent": "get_invoice"}
+{"utterance": "The shoes don't fit and I've sent them back, I'd like my money returned.", "intent": "get_refund"}
+{"utterance": "this arrived broken, I want a refund", "intent": "get_refund"}
+{"utterance": "can I be reimbursed for an order that never turned up", "intent": "get_refund"}
+{"utterance": "please refund the duplicate payment", "intent": "get_refund"}
+{"utterance": "Not what I ordered. I want my money back.", "intent": "get_refund"}
+{"utterance": "I'd like to claim a refund, the item is faulty", "intent": "get_refund"}
+{"utterance": "I need a refund for the subscription I didn't use", "intent": "get_refund"}
+{"utterance": "request to be paid back for the damaged parcel", "intent": "get_refund"}
+{"utterance": "You sent the wrong colour and I'd rather have a refund than a replacement.", "intent": "get_refund"}
+{"utterance": "refund me please, the goods are on their way back", "intent": "get_refund"}
+{"utterance": "put me on the list for offers and news", "intent": "newsletter_subscription"}
+{"utterance": "Stop the marketing emails, they're clogging my inbox.", "intent": "newsletter_subscription"}
+{"utterance": "how do I get your deals delivered by email?", "intent": "newsletter_subscription"}
+{"utterance": "I never signed up for emails, unsubscribe me", "intent": "newsletter_subscription"}
+{"utterance": "where can I opt in for your monthly digest", "intent": "newsletter_subscription"}
+{"utterance": "can I choose how often I get your promo emails or turn them off?", "intent": "newsletter_subscription"}
+{"utterance": "I want to receive your email updates, how?", "intent": "newsletter_subscription"}
+{"utterance": "remove me from your mailing list", "intent": "newsletter_subscription"}
+{"utterance": "Subscribe me, please, to the emails with discount codes.", "intent": "newsletter_subscription"}
+{"utterance": "unsub", "intent": "newsletter_subscription"}
+{"utterance": "the money's gone from my bank but the site says my order wasn't paid", "intent": "payment_issue"}
+{"utterance": "Tried to pay three times, always an error, and now I'm worried I'll be billed multiple times.", "intent": "payment_issue"}
+{"utterance": "it let me pay but then showed a failure page", "intent": "payment_issue"}
+{"utterance": "My bank notified me of two charges for one purchase.", "intent": "payment_issue"}
+{"utterance": "payment won't process, it just spins", "intent": "payment_issue"}
+{"utterance": "paypal says paid, your site says awaiting payment", "intent": "payment_issue"}
+{"utterance": "I was billed in the wrong currency and the amount is off", "intent": "payment_issue"}
+{"utterance": "card was charged but I got no confirmation email", "intent": "payment_issue"}
+{"utterance": "checkout threw an error right after taking my payment", "intent": "payment_issue"}
+{"utterance": "why was I debited twice?", "intent": "payment_issue"}
+{"utterance": "I'd like to buy two of the grey sofas, what do I do next?", "intent": "place_order"}
+{"utterance": "ready to checkout with my basket, how do I confirm the purchase?", "intent": "place_order"}
+{"utterance": "can you take my order for a dozen roses for Saturday?", "intent": "place_order"}
+{"utterance": "I want to get the black trainers in 42, how do I buy them", "intent": "place_order"}
+{"utterance": "need to buy this for my daughter's birthday, show me how to order it", "intent": "place_order"}
+{"utterance": "how do I complete a purchase as a guest?", "intent": "place_order"}
+{"utterance": "purchase help: I can't figure out the buying steps.", "intent": "place_order"}
+{"utterance": "Take my order please: one large pizza oven, delivered.", "intent": "place_order"}
+{"utterance": "I want to order from your catalogue by phone, is that okay", "intent": "place_order"}
+{"utterance": "lets buy it, what do i click", "intent": "place_order"}
+{"utterance": "i can't remember how i logged in, the password isn't what i think it is", "intent": "recover_password"}
+{"utterance": "Locked out of my account, what now?", "intent": "recover_password"}
+{"utterance": "trying to reset my login but no email shows up", "intent": "recover_password"}
+{"utterance": "I need a new password; the old one has slipped my mind", "intent": "recover_password"}
+{"utterance": "How do I regain access if I've forgotten my credentials?", "intent": "recover_password"}
+{"utterance": "wrong password 5 times and now i'm blocked, help me get back in", "intent": "recover_password"}
+{"utterance": "can you reset my password for me", "intent": "recover_password"}
+{"utterance": "'forgot password' link doesn't work for me, any other way?", "intent": "recover_password"}
+{"utterance": "the app keeps saying incorrect password and i've no idea what it should be", "intent": "recover_password"}
+{"utterance": "get me back into my profile, can't recall the passcode", "intent": "recover_password"}
+{"utterance": "I filled in the sign-up form but nothing happens after I press the button", "intent": "registration_problems"}
+{"utterance": "keeps telling me my details are invalid when I try to register", "intent": "registration_problems"}
+{"utterance": "tried to make an account but the SMS code never arrives", "intent": "registration_problems"}
+{"utterance": "Can't finish creating my profile, the page just loads forever.", "intent": "registration_problems"}
+{"utterance": "Registration is broken for me, I get a red error banner each time.", "intent": "registration_problems"}
+{"utterance": "the signup says email already taken, but this is my first time here", "intent": "registration_problems"}
+{"utterance": "I clicked the verification link and it says expired immediately", "intent": "registration_problems"}
+{"utterance": "can't get past the captcha when registering", "intent": "registration_problems"}
+{"utterance": "when I try to open a new account, the website crashes", "intent": "registration_problems"}
+{"utterance": "something is wrong with the sign-up, I've been stuck all morning", "intent": "registration_problems"}
+{"utterance": "the jacket is great, how can I tell other shoppers that?", "intent": "review"}
+{"utterance": "I want to give your seller a star rating", "intent": "review"}
+{"utterance": "where do I write what I thought about the book I got", "intent": "review"}
+{"utterance": "can I post my honest opinion about this item online", "intent": "review"}
+{"utterance": "How do I rate the product I received last week?", "intent": "review"}
+{"utterance": "how do i submit feedback on my order experience", "intent": "review"}
+{"utterance": "Want to leave 4 stars and a comment for the shop.", "intent": "review"}
+{"utterance": "is there a testimonial or review form on the site", "intent": "review"}
+{"utterance": "I'd like to write up my thoughts on the headphones", "intent": "review"}
+{"utterance": "where do customers post their ratings?", "intent": "review"}
+{"utterance": "this is my first order and I haven't given you an address yet, where does that go?", "intent": "set_up_shipping_address"}
+{"utterance": "how can I store a home address for deliveries in my account", "intent": "set_up_shipping_address"}
+{"utterance": "I need to add a place for parcels to be sent, I don't have one saved", "intent": "set_up_shipping_address"}
+{"utterance": "want to add my work address as a delivery option", "intent": "set_up_shipping_address"}
+{"utterance": "where do I enter a new address for shipping?", "intent": "set_up_shipping_address"}
+{"utterance": "I would like to save an address so I don't need to type it every time", "intent": "set_up_shipping_address"}
+{"utterance": "can I keep a list of delivery addresses in my profile", "intent": "set_up_shipping_address"}
+{"utterance": "adding a delivery location for the first time, how", "intent": "set_up_shipping_address"}
+{"utterance": "my profile is missing an address for shipments, please help me put one in", "intent": "set_up_shipping_address"}
+{"utterance": "Where do I set my default delivery address?", "intent": "set_up_shipping_address"}
+{"utterance": "I've got a personal and a business login, how do I jump between them", "intent": "switch_account"}
+{"utterance": "Can I use a different account than the one I'm currently signed in to?", "intent": "switch_account"}
+{"utterance": "I want to change over to my wife's account on the shared tablet", "intent": "switch_account"}
+{"utterance": "how to log out and sign in as another user", "intent": "switch_account"}
+{"utterance": "i signed up twice, how do i go back to my first account", "intent": "switch_account"}
+{"utterance": "swap to my second profile on the app", "intent": "switch_account"}
+{"utterance": "which button lets me change the account I'm using?", "intent": "switch_account"}
+{"utterance": "how do i toggle between my accounts", "intent": "switch_account"}
+{"utterance": "need to use my other login now, where", "intent": "switch_account"}
+{"utterance": "move me over to my other account please", "intent": "switch_account"}
+{"utterance": "my parcel was meant to come on tuesday and nothing yet, where is it now?", "intent": "track_order"}
+{"utterance": "can I check how far along my delivery is", "intent": "track_order"}
+{"utterance": "got a tracking code but the link shows no info, what's happening with my order", "intent": "track_order"}
+{"utterance": "when's it going to arrive, it says shipped but nothing since", "intent": "track_order"}
+{"utterance": "Is my order out for delivery today?", "intent": "track_order"}
+{"utterance": "need the latest on order 5520, is it dispatched", "intent": "track_order"}
+{"utterance": "the courier's page isn't updating. Where's my package?", "intent": "track_order"}
+{"utterance": "check where my order is please", "intent": "track_order"}
+{"utterance": "I'm waiting for something I ordered last week; what's its status?", "intent": "track_order"}
+{"utterance": "any news on my shipment?", "intent": "track_order"}
+{"utterance": "sent it back ten days ago, haven't seen the money yet, is it being processed?", "intent": "track_refund"}
+{"utterance": "how long until my refund lands in my account? you approved it", "intent": "track_refund"}
+{"utterance": "I was told a refund was issued, but my balance hasn't changed", "intent": "track_refund"}
+{"utterance": "Status of the money for my returned jumper?", "intent": "track_refund"}
+{"utterance": "can you see where my reimbursement is?", "intent": "track_refund"}
+{"utterance": "my refund is taking forever; has it left your side?", "intent": "track_refund"}
+{"utterance": "waiting on my refund for the cancelled booking, any update", "intent": "track_refund"}
+{"utterance": "has the refund for order 3302 gone through", "intent": "track_refund"}
+{"utterance": "refund hasn't arrived, what's going on with it", "intent": "track_refund"}
+{"utterance": "when do I get the refund you confirmed", "intent": "track_refund"}
