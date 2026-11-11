@@ -1,12 +1,15 @@
-# Small tuned model vs larger untuned model: intent classification
+# Fine-tuning a small language model for intent classification
 
 ## Research question
-Does a small model fine-tuned on a number of examples beat a larger model with no tuning, on classification with custom labels?
+**To what extent can fine-tuning improve a small language model (SLM) on intent classification, and what drives the improvement?**
 
-- Task: 27 customer-service intents (Bitext dataset)
-- Small model: Gemma-3-1B + LoRA, tuned on 1,000 examples
-- Larger model: Gemini 3.5 Flash Lite, untuned (label names, or names + one-line definitions)
-- Follow-ups: does it hold on differently-worded and real messages? What closes the gap?
+1. How much does fine-tuning improve an SLM over its untuned self?
+2. Does the improvement carry over to differently-worded and real messages?
+3. What drives it: amount of training data, or variety?
+
+- Task: 27 customer-service intents (Bitext dataset), custom labels
+- SLM: Gemma-3-1B + LoRA, tuned on 1,000+ examples
+- Yardstick: a larger untuned model, Gemini 3.5 Flash Lite (label names, or names + one-line definitions)
 
 ## Methodology
 - **Data:** Bitext train / val / test (6,539 / 818 / 818). 1,000 stratified train rows for tuning.
@@ -38,12 +41,12 @@ Does a small model fine-tuned on a number of examples beat a larger model with n
 Details: [`results/report_ood.md`](results/report_ood.md) (all test sets, intervals, paired tests); [`results/report.md`](results/report.md) (original Bitext-only experiment).
 
 ## Conclusion
-- **Answer: no, not yet.** On realistic test data the tuned 1B model did not beat the larger untuned model. The best version trails Gemini by about 8 points on the 109 clear real tweets (88% vs 96%) and about 12 on all 283 (69% vs 81%).
-- **Fine-tuning clearly helped.** It narrowed the gap to Gemini on real tweets from 62 points (Bitext-only tuning) to 8, and the same Gemma-1B went from 50.5% untuned to 88.1% (34% to 90% on holdout v2).
-- **Condition: it only helps when the training data covers the wording it will see.** Bitext-only tuning beat Gemini on Bitext (99% vs 94%, an easy templated test) but collapsed on real tweets (33.9%, below untuned).
-- **Variety drove the gain, not quantity:** 3x more Bitext data moved holdout v2 by under 1 point; varied data moved it +23.
-- **Further engineering is open.** Untried: a larger base model, real-ticket training data, a confidence router that escalates uncertain tickets, multiple seeds.
-- **Limits:** one training run per setting; only 1,000 and 3,160 examples tried (no sweep over the number of examples); real-tweet labels are LLM-made with a 50-row spot-check; the real set is small (109), complaint-heavy and covers 23 of 27 intents; Gemini ran with reasoning on; augmentation data comes from Gemini.
+- **Extent: large, but conditional on the training data.** The same Gemma-1B improved from 52.7% to 98.7% on Bitext, from 34.1% to 90.4% on a fresh holdout, and from 50.5% to 88.1% on real tweets (+38 to +56 points).
+- **It can also hurt.** Tuned on Bitext alone, accuracy on real tweets fell to 33.9%, below untuned: the model overfit to the dataset's style. Bitext-only gains are an easy-test result.
+- **Variety, not quantity, drives the improvement.** 3x more Bitext data moved holdout v2 by under 1 point; varied training data moved it +23 (the 1,000 Bitext examples cover only 63% of the holdout's words, vs 97% with augmentation).
+- **Against the larger model:** the tuned SLM beats untuned Gemini on Bitext (99% vs 94%, an easy templated test) but still trails it on real data: about 8 points on the 109 clear tweets (88% vs 96%), about 12 on all 283 (69% vs 81%). Tuning narrowed that gap from 62 points to 8.
+- **Open levers (untried):** a larger base model, real-ticket training data, a confidence router that escalates uncertain tickets, more seeds, a sweep over the number of examples.
+- **Limits:** one training run per setting; only 1,000 and 3,160 examples tried; real-tweet labels are LLM-made with a 50-row spot-check; the real set is small (109), complaint-heavy and covers 23 of 27 intents; Gemini ran with reasoning on; augmentation data comes from Gemini.
 - **Not shown:** cost savings or CPU hosting.
 
 ## Reproduce
