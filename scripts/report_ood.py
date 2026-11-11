@@ -11,8 +11,8 @@ RUNS = {  # name -> {set: results file stem}
     "Gemma-1B tuned, Bitext 1k": {"test": "gemma_tuned", "v2": "gemma_tuned_holdout2_constrained_bitext_only", "tw": "gemma_tuned_twitter_constrained_bitext_only"},
     "Gemma-1B tuned, Bitext 3.2k (ablation)": {"test": "gemma_tuned_constrained_bitext3k", "v2": "gemma_tuned_holdout2_constrained_bitext3k", "tw": "gemma_tuned_twitter_constrained_bitext3k"},
     "Gemma-1B tuned, Bitext + augmentation": {"test": "gemma_tuned_constrained_aug", "v2": "gemma_tuned_holdout2_constrained_aug", "tw": "gemma_tuned_twitter_constrained_aug"},
-    "Gemini Flash Lite, names": {"test": "gemini_names", "v2": "gemini_names_holdout2", "tw": "gemini_names_twitter"},
-    "Gemini Flash Lite, definitions": {"test": "gemini_definitions", "v2": "gemini_definitions_holdout2", "tw": "gemini_definitions_twitter"},
+    "Gemini 3.5 Flash Lite, names": {"test": "gemini_names", "v2": "gemini_names_holdout2", "tw": "gemini_names_twitter"},
+    "Gemini 3.5 Flash Lite, definitions": {"test": "gemini_definitions", "v2": "gemini_definitions_holdout2", "tw": "gemini_definitions_twitter"},
 }
 
 
@@ -74,7 +74,7 @@ def main():
             else:
                 cells.append(cell(P))
         L.append(f"| {name} | " + " | ".join(cells) + " |")
-    aug, gd = "Gemma-1B tuned, Bitext + augmentation", "Gemini Flash Lite, definitions"
+    aug, gd = "Gemma-1B tuned, Bitext + augmentation", "Gemini 3.5 Flash Lite, definitions"
     L += ["", "## Paired comparison: augmented Gemma vs Gemini (definitions)", "",
           "| Set | only Gemma right | only Gemini right | exact McNemar p |", "|---|---|---|---|"]
     for key, label in (("test", "Bitext test"), ("v2", "Holdout v2"), ("tw", "Real tweets (all 283)")):

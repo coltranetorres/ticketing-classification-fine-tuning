@@ -29,8 +29,8 @@
 | Gemma-1B tuned, Bitext 1k | **99.3%** | 67.4% | 33.9% |
 | Gemma-1B tuned, Bitext 3.2k (ablation) | 99.5% | 68.1% | 33.9% |
 | Gemma-1B tuned, Bitext + augmentation | 98.7% | 90.4% | 88.1% |
-| Gemini Flash Lite, names | 94.0% | 98.9% | 89.9% |
-| Gemini Flash Lite, definitions | 94.5% | 97.8% | **96.3%** |
+| Gemini 3.5 Flash Lite, names | 94.0% | 98.9% | 89.9% |
+| Gemini 3.5 Flash Lite, definitions | 94.5% | 97.8% | **96.3%** |
 
 - Bitext test: tuned beats Gemini (McNemar p ≈ 1e-9).
 - **Variety, not quantity, drove the gain:** 3x more Bitext data moved holdout v2 by under 1 point; adding varied data moved it +23. Bitext-1k covers 63% of the words in v2; with augmentation, 97%.
