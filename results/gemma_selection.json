@@ -1,0 +1,20 @@
+{
+  "adapters": {
+    "0000250_adapters.safetensors": 0.97,
+    "0000500_adapters.safetensors": 0.985,
+    "0000750_adapters.safetensors": 0.98,
+    "adapters.safetensors": 0.98
+  },
+  "lr_5e-6": {
+    "0000250_adapters.safetensors": 0.865,
+    "0000500_adapters.safetensors": 0.98,
+    "0000750_adapters.safetensors": 0.96,
+    "adapters.safetensors": 0.96
+  },
+  "lr_5e-5": {
+    "0000250_adapters.safetensors": 0.995,
+    "0000500_adapters.safetensors": 1.0,
+    "0000750_adapters.safetensors": 0.995,
+    "adapters.safetensors": 0.995
+  }
+}
