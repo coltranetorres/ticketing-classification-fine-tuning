@@ -39,6 +39,6 @@ def test_paired_counts():
 
 def test_verdict():
     m = lambda a: {"accuracy": a}
-    assert report.verdict(m(0.9), m(0.8), m(0.85)).startswith("H5 supported")
-    assert report.verdict(m(0.9), m(0.9), m(0.8)).startswith("H5 not supported")
-    assert report.verdict(m(0.9), m(0.95), m(0.8)).startswith("H5 not supported")
+    assert report.verdict(m(0.9), m(0.8), m(0.85)).startswith("Supported")
+    assert report.verdict(m(0.9), m(0.9), m(0.8)).startswith("Not supported")
+    assert report.verdict(m(0.9), m(0.95), m(0.8)).startswith("Not supported")

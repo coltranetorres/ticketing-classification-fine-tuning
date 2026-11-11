@@ -49,9 +49,9 @@ def paired_counts(tuned: list[dict], other: list[dict]) -> tuple[int, int]:
 
 def verdict(tuned: dict, names: dict, defs: dict) -> str:
     if tuned["accuracy"] > names["accuracy"] and tuned["accuracy"] > defs["accuracy"]:
-        return (f"H5 supported: tuned Gemma accuracy {tuned['accuracy']:.4f} exceeds both "
+        return (f"Supported: tuned Gemma accuracy {tuned['accuracy']:.4f} exceeds both "
                 f"Gemini variants ({names['accuracy']:.4f}, {defs['accuracy']:.4f}).")
-    return (f"H5 not supported: tuned Gemma accuracy {tuned['accuracy']:.4f} does not exceed "
+    return (f"Not supported: tuned Gemma accuracy {tuned['accuracy']:.4f} does not exceed "
             f"both Gemini variants ({names['accuracy']:.4f}, {defs['accuracy']:.4f}).")
 
 
@@ -121,7 +121,7 @@ def main() -> None:
         pair.append(f"| Tuned Gemma vs {name} | {a} | {b} | {mcnemar_p(a, b):.4g} |")
     v = verdict(tuned["metrics"], data["gemini_names"]["metrics"],
                 data["gemini_definitions"]["metrics"])
-    md = f"""# H5 results: LoRA-tuned Gemma-3-1B vs untuned Gemini on 27-way intent classification
+    md = f"""# Results: LoRA-tuned Gemma-3-1B vs untuned Gemini on 27-way intent classification
 
 **Verdict: {v}**
 

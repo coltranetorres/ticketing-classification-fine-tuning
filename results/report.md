@@ -1,6 +1,6 @@
-# H5 results: LoRA-tuned Gemma-3-1B vs untuned Gemini on 27-way intent classification
+# Results: LoRA-tuned Gemma-3-1B vs untuned Gemini on 27-way intent classification
 
-**Verdict: H5 supported: tuned Gemma accuracy 0.9927 exceeds both Gemini variants (0.9401, 0.9450).**
+**Verdict: Supported: tuned Gemma accuracy 0.9927 exceeds both Gemini variants (0.9401, 0.9450).**
 
 ![Accuracy and macro-F1 per run](comparison.png)
 

@@ -13,3 +13,4 @@ data/mlx_aug/
 data/mlx_bitext3k/
 data/twitter/
 results/*twitter*.json
+docs/superpowers/

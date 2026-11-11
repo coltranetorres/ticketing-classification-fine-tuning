@@ -1,7 +1,7 @@
 # Small tuned model vs larger untuned model: intent classification
 
 ## Research question
-**H5:** Does a small model fine-tuned on a number of examples beat a larger model with no tuning, on classification with custom labels?
+Does a small model fine-tuned on a number of examples beat a larger model with no tuning, on classification with custom labels?
 
 - Task: 27 customer-service intents (Bitext dataset)
 - Small model: Gemma-3-1B + LoRA, tuned on 1,000 examples
@@ -38,8 +38,8 @@
 Details: [`results/report_ood.md`](results/report_ood.md) (all test sets, intervals, paired tests); [`results/report.md`](results/report.md) (original Bitext-only experiment).
 
 ## Conclusion
-- **H5 holds in-distribution:** tuning a 1B model on 1,000 examples beat untuned Gemini on Bitext.
-- **H5 does not hold out-of-distribution:** with Bitext-only tuning it loses to Gemini on new wording and collapses on real tweets. The 99% mostly reflects learning Bitext's wording.
+- **Yes, in-distribution:** tuning a 1B model on 1,000 examples beat untuned Gemini on Bitext.
+- **No, out-of-distribution:** with Bitext-only tuning it loses to Gemini on new wording and collapses on real tweets. The 99% mostly reflects learning Bitext's wording.
 - **Fine-tuning helps when the training data resembles the deployment data:** the same Gemma-1B goes from 50.5% to 88.1% on real tweets with diverse data (34% to 90% on holdout v2). Narrow data can hurt (Bitext-only: 33.9% on tweets).
 - **Diverse training data is the fix, but a larger model is still ahead:** the small model trails Gemini by about 8 points on the 109 clear tweets (88% vs 96%) and about 12 on all 283 (69% vs 81%).
 - **Limits:** one training run per setting; labels for real tweets are LLM-made with a 50-row spot-check; the real set is small (109), complaint-heavy and covers 23 of 27 intents; Gemini ran with reasoning on; augmentation data comes from Gemini.
